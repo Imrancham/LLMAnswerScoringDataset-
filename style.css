@@ -1,0 +1,86 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    background:#fff;
+    color: #333; 
+    padding: 10px 0;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin: 0 20px;
+}
+
+header #branding {
+    flex-grow: 1;
+}
+
+header #branding h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.questionnaire {
+    background: #fff;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.questionnaire h2 {
+    margin-top: 0;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.question input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-bottom: 10px; /* Add margin between inputs */
+}
+
+.question input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.question input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.consent {
+    margin-bottom: 20px;
+}
+
+    </style>
