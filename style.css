@@ -83,4 +83,63 @@ header #branding h1 {
     margin-bottom: 20px;
 }
 
+.rating {
+    font-size: 0.9em;
+    color: #007BFF;
+    padding-left: 10px;
+}
+
+.spinner-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Dim the background */
+    z-index: 1000; /* Ensure it's on top */
+    position: fixed; /* Cover the entire page */
+    top: 0;
+    left: 0;
+}
+
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: -60px; /* Offset by half the height */
+    margin-left: -60px; /* Offset by half the width */
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* General styling for the add-answer button */
+.add-answer {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF; /* Bootstrap primary blue */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-answer:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.add-answer:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.5); /* Blue glow for accessibility */
+}
+
+
+
     </style>

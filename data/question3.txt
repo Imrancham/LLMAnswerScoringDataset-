@@ -1,0 +1,4 @@
+rage: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+Antwort: Sei die Breite 𝑤. Die Länge ist 2𝑤. Die Umfangsformel ist 2
+(𝐿ä𝑛𝑔𝑒+𝐵𝑟𝑒𝑖𝑡𝑒)=30. Setzt man ein, erhält man 
+2(2𝑤+𝑤)=30 also 6𝑤=30, und 𝑤=5 Meter. Die Abmessungen sind 5 Meter mal 10 Meter.

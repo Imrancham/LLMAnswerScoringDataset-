@@ -1,0 +1,2 @@
+Frage: Eine Schule kauft Notizbücher für jeweils 2 Dollar und verkauft sie an die Schüler für jeweils 3 Dollar. Wenn die Schule insgesamt 100 Dollar Gewinn gemacht hat, wie viele Notizbücher wurden verkauft? Beschreibe deinen Ansatz zur Lösung dieses Problems.
+Antwort: Für jedes verkaufte Notizbuch verdient die Schule 1 Dollar Gewinn. Wenn der Gesamtgewinn 100 Dollar beträgt, müssen 100 Notizbücher verkauft worden sein, da 100 durch 1 gleich 100 ist.

@@ -1,0 +1,2 @@
+Frage: Angenommen, du weißt, dass alle Mathematiklehrer freundlich sind. Wenn Herr Braun ein Mathematiklehrer ist, was kannst du dann über Herrn Braun sagen? Erkläre deine Überlegungen.
+Antwort: Da alle Mathematiklehrer freundlich sind und Herr Braun ein Mathematiklehrer ist, folgt logisch, dass Herr Braun freundlich ist. Dies ist eine Anwendung der universellen Quantifizierung in der Logik.

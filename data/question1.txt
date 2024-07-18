@@ -1,0 +1,3 @@
+Frage: Betrachte die Sequenz: 2, 4, 8, 16, ...
+Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
+Antwort: Die Sequenz verdoppelt jede Zahl, um die nächste zu erhalten. Um die nächste Zahl zu finden, multipliziere die letzte Zahl in der Sequenz mit 2. Die nächste Zahl nach 16 wäre 16*2=32.

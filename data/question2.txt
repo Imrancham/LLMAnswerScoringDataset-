@@ -1,0 +1,2 @@
+Frage: Wenn 3𝑥+5=20 ist, was ist 𝑥? Erkläre, wie du diese Gleichung Schritt für Schritt lösen würdest.
+Antwort: Um 3𝑥+5=20 zu lösen, subtrahiere zuerst 5 von beiden Seiten, um 3𝑥=15 zu erhalten. Dann teile beide Seiten durch 3, um 𝑥=5 zu finden.

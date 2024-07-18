@@ -1,0 +1,3 @@
+Frage: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
+Antwort: Die Wahrscheinlichkeit wird durch die relative Häufigkeit der Schüler, die Schokoladeneis mögen, geschätzt, die 
+150/200=0,75 oder 75 % beträgt. Daher besteht eine 75 %ige Chance, dass der neue Schüler Schokoladeneis mag.

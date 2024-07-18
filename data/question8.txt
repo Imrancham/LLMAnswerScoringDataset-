@@ -1,0 +1,2 @@
+Frage: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
+Antwort: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
