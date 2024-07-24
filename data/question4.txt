@@ -1,2 +1,16 @@
-Frage: Eine Schule kauft Notizbücher für jeweils 2 Dollar und verkauft sie an die Schüler für jeweils 3 Dollar. Wenn die Schule insgesamt 100 Dollar Gewinn gemacht hat, wie viele Notizbücher wurden verkauft? Beschreibe deinen Ansatz zur Lösung dieses Problems.
-Antwort: Für jedes verkaufte Notizbuch verdient die Schule 1 Dollar Gewinn. Wenn der Gesamtgewinn 100 Dollar beträgt, müssen 100 Notizbücher verkauft worden sein, da 100 durch 1 gleich 100 ist.
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Eine Schule kauft Notizbücher für jeweils 2 Dollar und verkauft sie an die Schüler für jeweils 3 Dollar. Wenn die Schule insgesamt 100 Dollar Gewinn gemacht hat, wie viele Notizbücher wurden verkauft? Beschreibe deinen Ansatz zur Lösung dieses Problems.
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen des Problems. Die Schritte sind falsch oder fehlen, und die Anzahl der verkauften Notizbücher ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Die Anzahl der verkauften Notizbücher ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und die Anzahl der verkauften Notizbücher ist korrekt.
+
+# Beispiele
+Punktzahl 0: Die Schule hat 200 Notizbücher verkauft.
+Punktzahl 1: Der Gewinn beträgt 1 Dollar pro Notizbuch.
+Punktzahl 2: Für jedes verkaufte Notizbuch verdient die Schule 1 Dollar Gewinn, weil der Verkaufspreis 3 Dollar und der Einkaufspreis 2 Dollar beträgt. Wenn der Gesamtgewinn 100 Dollar beträgt, müssen 100 Notizbücher verkauft worden sein, da 100 Dollar Gewinn durch 1 Dollar Gewinn pro Notizbuch geteilt 100 Notizbücher ergibt.

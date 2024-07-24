@@ -1,4 +1,20 @@
-rage: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
-Antwort: Sei die Breite 𝑤. Die Länge ist 2𝑤. Die Umfangsformel ist 2
-(𝐿ä𝑛𝑔𝑒+𝐵𝑟𝑒𝑖𝑡𝑒)=30. Setzt man ein, erhält man 
-2(2𝑤+𝑤)=30 also 6𝑤=30, und 𝑤=5 Meter. Die Abmessungen sind 5 Meter mal 10 Meter.
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen des Problems. Die Schritte sind falsch oder fehlen, und die Abmessungen des Rechtecks sind nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Die Abmessungen des Rechtecks sind möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und die Abmessungen des Rechtecks sind korrekt.
+
+# Beispiele:
+
+Punktzahl 0: Die Länge ist 15 Meter und die Breite ist 10 Meter.
+Punktzahl 1: Sei die Breite w. Die Länge ist 2w. Die Umfangsformel ist 2(Länge+Breite) = 30. Setzt man ein, erhält man 2(2w+2)=30 also 6w = 30, und w = 5 Meter. Die Abmessungen sind 5 Meter mal 10 Meter.
+Punktzahl 2: Sei die Breite 2.  Die Läne ist 2w. Die Umfangsformel ist 2(Länge + Breite)=30. Setzt man ein, erhält man2(2w+w) =30, also 6w = 30, und w =5 Meter. Die Länge ist 2w = 2*5 = 10 Meter. Die Abmessungen sind 5 Metermal 10.
