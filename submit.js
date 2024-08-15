@@ -5,18 +5,30 @@ function generateUUID() {
     });
 }
 
+function replaceUmlauts(text) {
+    const textarea = document.createElement('textarea');
+    textarea.innerHTML = text;
+    text = textarea.value;
+
+    // Replace newlines with <br> tags
+    return text.replace(/\n/g, '<br>');
+}
+
+function decodeUnicodeEscapes(text) {
+    return text.replace(/\\u([0-9a-fA-F]{4})/g, function (match, group) {
+        return String.fromCharCode(parseInt(group, 16));
+    });
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('questionnaireForm');
     const userID = generateUUID(); // Generate a userID when the form loads
 
-    // Handle form submission
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         handleSubmit(e, userID); // Pass userID to the handler
     });
 
-    // Handle clicks on the form for dynamically added "+" buttons
     form.addEventListener('click', function(e) {
         if (e.target.classList.contains('add-answer')) {
             addInputField(e.target.dataset.questionId);
@@ -24,25 +36,23 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
 async function handleSubmit(e, userID) {
     e.preventDefault();
     const inputs = document.querySelectorAll("#questionnaireForm input[type='text']");
-    for (let input of inputs) {
-        if (input.value.trim() !== '') { // Only send non-empty inputs
-            await sendInputData(userID, input);
-        }
-    }
-}
+    const formData = { userId: userID };
+     // Create a spinner element
+     const spinner = document.createElement('div');
+     spinner.className = 'spinner';
+ 
+     // Add the spinner to the body or a container that covers the entire page
+     document.body.appendChild(spinner);
 
-async function sendInputData( userID, input) {
-    const formData = {  userId: userID, [input.name]: input.value };
-    // Show loading spinner
-    const spinner = document.createElement('span');
-    spinner.className = 'spinner';
-    //spinner.textContent = 'Loading...';
-    input.parentNode.insertBefore(spinner, input.nextSibling);
-    
+    inputs.forEach(input => {
+        if (input.value.trim() !== '') { // Only include non-empty inputs
+            formData[input.name] = input.value;
+        }
+    });
+
     try {
         const response = await fetch('http://10.1.158.22:5000/submit', {
             method: 'POST',
@@ -52,31 +62,44 @@ async function sendInputData( userID, input) {
             body: JSON.stringify(formData)
         });
         const data = await response.json();
-        
         // Remove spinner
-        input.parentNode.removeChild(spinner);
-        
-        const ratingElement = document.createElement('div');
-        ratingElement.textContent = `Rating: ${data[input.name]}`;
-        ratingElement.className = 'rating';
-        input.parentNode.insertBefore(ratingElement, input.nextSibling);
+        spinner.remove();
+
+        inputs.forEach(input => {
+            if (input.value.trim() !== '') { // Only include non-empty inputs
+                // Check if there's an existing rating element and remove it
+                let existingRating = input.nextElementSibling;
+                if (existingRating && existingRating.classList.contains('rating')) {
+                    existingRating.remove();
+                }
+
+                // Create a new rating element and insert it after the input
+                const ratingElement = document.createElement('div');
+                // Replace newline escape characters with actual HTML line breaks
+                const decodedText = decodeUnicodeEscapes(data[input.name]);
+                const formattedText = decodedText.replace(/\\n/g, '<br>');
+                ratingElement.innerHTML = `Rating: ${formattedText}`;
+                ratingElement.className = 'rating';
+                input.insertAdjacentElement('afterend', ratingElement);
+            }
+        });
     } catch (error) {
         console.error('Error:', error);
-        input.parentNode.removeChild(spinner);
+        // Remove spinner
+        spinner.remove();
     }
 }
-// Correct function to handle adding inputs
+
 function addInputField(questionId) {
     const questionDiv = document.getElementById(questionId);
-    if (questionDiv) {  // Check if the element exists
+    if (questionDiv) {
         const newInputNumber = questionDiv.querySelectorAll('input[type="text"]').length + 1;
         const newInput = document.createElement('input');
         newInput.type = 'text';
         newInput.name = `${questionId}-${newInputNumber}`;
         questionDiv.appendChild(newInput);
-        newInput.focus();  // Focus the new input
+        newInput.focus();
     } else {
         console.error('No element found with ID:', questionId);
     }
 }
-

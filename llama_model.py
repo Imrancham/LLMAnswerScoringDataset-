@@ -1,11 +1,13 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed in accordance with the terms of the Llama 3 Community License Agreement.
 
+import json
 from typing import List, Optional
 
 import fire
 
 from llama import Dialog, Llama
+
 
 def main(
     ckpt_dir: str,
@@ -35,11 +37,23 @@ def main(
         max_batch_size=max_batch_size,
     )
 
-    dialogs: List[Dialog] = [
-        [
-            {"role": "user", "content": student_answer},
-        ]
-    ]
+    # Parse the JSON string into a Python list
+# Check if student_answer is a string (JSON) or a list
+    if isinstance(student_answer, str):
+        try:
+            st_answers = json.loads(student_answer)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+            st_answers = []  # Handle empty or invalid JSON
+    elif isinstance(student_answer, list):
+        st_answers = student_answer
+    else:
+        print(f"Unexpected type for student_answer: {type(student_answer)}")
+        st_answers = []
+    dialogs: List[Dialog] = [     [{"role": "user", "content": answer}] for answer in st_answers
+                             ]
+    
+
 
     results = generator.chat_completion(
         dialogs,
@@ -49,8 +63,15 @@ def main(
     )
 
     # Modified output: print only the final generation's role and content
-    for result in results:
-        print(f"{result['generation']['role'].capitalize()}: {result['generation']['content']}")
+      # Modified output: print only the final generation's role and content
+    
+    # Assuming 'results' is a list of dictionaries with 'generation' containing 'role' and 'content'
+    results_dicts = [{'role': answer['generation']['role'], 'content': answer['generation']['content']} for answer in results]
 
+    # Convert the list of dictionaries to a JSON-formatted string
+    json_string = json.dumps(results_dicts, indent=4)
+
+    # Print or use the JSON string as needed
+    print(json_string)
 if __name__ == "__main__":
     fire.Fire(main)
