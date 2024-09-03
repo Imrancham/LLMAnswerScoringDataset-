@@ -15,6 +15,9 @@ function replaceUmlauts(text) {
 }
 
 function decodeUnicodeEscapes(text) {
+    if (typeof text !== 'string') {
+        return text; // If text is not a string, return it as is (could be null, undefined, or other types)
+    }
     return text.replace(/\\u([0-9a-fA-F]{4})/g, function (match, group) {
         return String.fromCharCode(parseInt(group, 16));
     });
@@ -22,8 +25,11 @@ function decodeUnicodeEscapes(text) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('questionnaireForm');
+    const form2 = document.getElementById('questionnaireForm2');
+
     const userID = generateUUID(); // Generate a userID when the form loads
 
+    if (form){
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         handleSubmit(e, userID); // Pass userID to the handler
@@ -34,9 +40,21 @@ document.addEventListener('DOMContentLoaded', function() {
             addInputField(e.target.dataset.questionId);
         }
     });
+}
+
+   
+    if (form2 ){
+    form2.addEventListener('submit', function(e){
+        e.preventDefault();
+        handleSubmit2(e, userID)
+    });
+}
+
 });
 
+
 async function handleSubmit(e, userID) {
+    
     e.preventDefault();
     const inputs = document.querySelectorAll("#questionnaireForm input[type='text']");
     const formData = { userId: userID };
@@ -52,6 +70,7 @@ async function handleSubmit(e, userID) {
             formData[input.name] = input.value;
         }
     });
+
 
     try {
         const response = await fetch('http://10.1.158.22:5000/submit', {
@@ -90,6 +109,47 @@ async function handleSubmit(e, userID) {
     }
 }
 
+async function handleSubmit2(e, userID) {
+    e.preventDefault();
+    const inputs = document.querySelectorAll("#questionnaireForm2 input[type='text']");
+    const formData = { userId: userID };
+
+    // Collecting the form data
+    inputs.forEach(input => {
+        if (input.value.trim() !== '') { // Only include non-empty inputs
+            formData[input.name] = input.value;
+        }
+    });
+
+    try {
+        // Sending the form data to the server
+        const response = await fetch('http://10.1.158.22:5000/save', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+        const data = await response.json();
+
+        // Clear all input fields after successful submission
+        inputs.forEach(input => {
+            input.value = ''; // Clear each input field
+        });
+
+        // Display a thank you message
+        const form = document.getElementById('questionnaireForm2');
+        const thankYouMessage = document.createElement('div');
+        thankYouMessage.textContent = 'Thank you for your submission!';
+        thankYouMessage.className = 'thank-you-message';
+        form.appendChild(thankYouMessage);
+
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+
 function addInputField(questionId) {
     const questionDiv = document.getElementById(questionId);
     if (questionDiv) {
@@ -103,3 +163,4 @@ function addInputField(questionId) {
         console.error('No element found with ID:', questionId);
     }
 }
+
