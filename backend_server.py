@@ -1,21 +1,71 @@
-import ast
 import re
+import os
+import csv
+import json
+import subprocess
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import subprocess
-import json
-import csv
-import os
 
 app = Flask(__name__)
 CORS(app)
 
-def map_question_key(key):
+# Constants
+CSV_HEADERS = ["UserID", "QuestionID", "StudentAnswer", "ResponseRating"]
+CSV_FILE_PATH = "/data/ichamieh/LLMAnswerScoringDataset/output/responses.csv"
+QUESTION_DIRECTORY = "/data/ichamieh/LLMAnswerScoringDataset/data"
+MODEL_SCRIPT_PATH = "/data/ichamieh/LLMAnswerScoringDataset/llama_model.py"
+MODEL_CKPT_DIR = "/data/ichamieh/llama3/Meta-Llama-3-8B-Instruct"
+TOKENIZER_PATH = "/data/ichamieh/llama3/Meta-Llama-3-8B-Instruct/tokenizer.model"
+batch_size = 20
+seq_len = 4500
+
+def map_question_key_to_file(key):
+    """Map a question key to its corresponding file name."""
     match = re.match(r'^q(\d+)-\d+$', key)
-    if match:
-        return f'question{match.group(1)}.txt'
-    else:
-        return None
+    return f'question{match.group(1)}.txt' if match else None
+
+def load_question_prompt(file_path):
+    """Load the question prompt from a file."""
+    try:
+        with open(file_path, 'r') as file:
+            return file.read()
+    except FileNotFoundError:
+        print(f'File not found: {file_path}')
+    except Exception as e:
+        print(f'An error occurred: {str(e)}')
+    return ""
+
+def generate_prompt(question_prompt, student_answer):
+    """Generate the prompt for the LLM by combining question prompt and student answer."""
+    return f"{question_prompt} # Antwort des Studierenden: {student_answer}"
+
+def execute_model(dialogs):
+    """Execute the LLM model using the provided dialogs."""
+    dialogs_json = json.dumps(dialogs)
+    command = (
+        f"torchrun --nproc_per_node=1 {MODEL_SCRIPT_PATH} "
+        f"--student_answer='{dialogs_json}' "
+        f"--ckpt_dir={MODEL_CKPT_DIR} "
+        f"--tokenizer_path={TOKENIZER_PATH} "
+        f"--max_seq_len={seq_len} --max_batch_size={batch_size}"
+    )
+    return subprocess.run(command, shell=True, text=True, capture_output=True)
+
+def parse_model_output(output):
+    """Parse the model output to extract ratings."""
+    pattern = r'"content":\s*"(.*?)"'
+    return re.findall(pattern, output, re.DOTALL)
+
+def save_responses_to_csv(responses, csv_file_path):
+    """Save the responses to the CSV file."""
+    file_exists = os.path.isfile(csv_file_path)
+    write_header = not file_exists or os.stat(csv_file_path).st_size == 0
+    
+    with open(csv_file_path, mode='a', newline='', encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file)
+        if write_header:
+            writer.writerow(CSV_HEADERS)
+        writer.writerows(responses)
 
 @app.route('/')
 def index():
@@ -24,85 +74,65 @@ def index():
 @app.route('/submit', methods=['POST'])
 def submit():
     data = request.json
-    userId = data['userId']
-    responses = []
-    prompt = """You are a grader for a tenth-grade Science exam in a high school. You will be provided with guidelines, scoring rubric, scoring examples, a question, and a student's response. Tables, if there are any, will be in CSV format. Rate the response according to the scoring rubric and scoring examples. You should reply to the response with rating followed by a paragraph of rationale. For the rating, just report a score only.
-
-# Student Answer: """
+    user_id = data['userId']
     dialogs = []
-    for key, response in data.items():
+    responses = []
+
+
+    for key, student_answer in data.items():
         if key == 'userId':
             continue
 
-        fileName = map_question_key(key)
-        directory= "/data/ichamieh/LLMAnswerScoringDataset/data"
+        file_name = map_question_key_to_file(key)
+        if not file_name:
+            print("filename:", file_name)
+            continue
 
+        file_path = os.path.join(QUESTION_DIRECTORY, file_name)
+        question_prompt = load_question_prompt(file_path)
+        if not question_prompt:
+            continue
 
-        file_path = os.path.join(directory, fileName)
-        try:
-            # Attempt to open and read the file
-            with open(file_path, 'r') as file:
-                prompt =  file.read()
-        except FileNotFoundError:
-            # If the file does not exist, return an error message
-            print( f'File not found: {file_path}')
-        except Exception as e:
-            # Handle other possible exceptions
-            print( f'An error occurred: {str(e)}')
+        full_prompt = generate_prompt(question_prompt, student_answer)
+        dialogs.append(full_prompt)
+
+    #print(dialogs)
+
+    model_result = execute_model(dialogs)
+
+    if model_result.returncode == 0 and model_result.stdout:
+        matches = parse_model_output(model_result.stdout)
+        filtered_data = ((key, response) for key, response in data.items() if key != "userId")
+        for rating, (key, student_answer) in zip(matches, filtered_data):
+            responses.append([user_id, key, student_answer, rating])
+    else:
+        error_message = model_result.stderr if model_result.stderr else "Model execution failed"
+        for key, student_answer in filtered_data:
+            responses.append([user_id, key, student_answer, error_message])
+
+    save_responses_to_csv(responses, CSV_FILE_PATH)
+    
+    response_data = {response[1]: response[3] for response in  responses }
+ 
+    return jsonify(response_data)
+
+@app.route('/save', methods=['POST'])
+def save_data():
+    try:
+        form_data = request.json
+        user_id = form_data.get('userId')
         
-        escaped_response = prompt + " # Antwort der Studenten: " + response
-        dialogs.append( escaped_response)
+        responses = [
+            [user_id, key, value, '']  # Assuming ResponseRating is not provided
+            for key, value in form_data.items() if key != 'userId'
+        ]
 
-    dialogs_json = json.dumps(dialogs)
+        save_responses_to_csv(responses, 'responses.csv')
+        response_data = {key: "Response received" for key in form_data if key != 'userId'}
+        return jsonify(response_data)
 
-
-
-    command = f'''
-    torchrun --nproc_per_node=1 /data/ichamieh/LLMAnswerScoringDataset/llama_model.py \\
-        --student_answer='{dialogs_json}' \\
-        --ckpt_dir=/data/ichamieh/llama3/Meta-Llama-3-8B-Instruct \\
-        --tokenizer_path=/data/ichamieh/llama3/Meta-Llama-3-8B-Instruct/tokenizer.model \\
-        --max_seq_len=4500 --max_batch_size=20
-    '''
-
-    result = subprocess.run(command, shell=True, text=True, capture_output=True)
-
-
-
-    ratings = {}
-    if result.returncode == 0:
-
-        if result.stdout:            
-            # Regex pattern to find all content values
-            pattern = r'"content":\s*"(.*?)"'
-            # Finding all matches in the JSON string
-            matches = re.findall(pattern, result.stdout, re.DOTALL)
-
-            # Creating a generator that skips certain keys in the data
-            filtered_data = ((key, response) for key, response in data.items() if key != "userId")
-
-            for match, (key, response) in zip(matches, filtered_data):
-                print(match)
-
-                ratings[key] = match
-                responses.append([userId, key, response, match])
-
-        else:
-            ratings[key] = f"Error: {result.stderr}"
-            responses.append([userId, key, response, f"Error: {result.stderr}"])
-            
-
-    csv_file_path = "/data/ichamieh/LLMAnswerScoringDataset/output/responses.csv"
-    file_exists = os.path.isfile(csv_file_path)
-    write_header = not file_exists or os.stat(csv_file_path).st_size == 0
-
-    with open(csv_file_path, mode='a', newline='') as csv_file:
-        writer = csv.writer(csv_file)
-        if write_header:
-            writer.writerow(["UserID", "QuestionID", "StudentAnswer", "ResponseRating"])
-        writer.writerows(responses)
-
-    return jsonify(ratings)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
