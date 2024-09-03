@@ -63,7 +63,6 @@ def main(
     )
 
     # Modified output: print only the final generation's role and content
-      # Modified output: print only the final generation's role and content
     
     # Assuming 'results' is a list of dictionaries with 'generation' containing 'role' and 'content'
     results_dicts = [{'role': answer['generation']['role'], 'content': answer['generation']['content']} for answer in results]
@@ -72,6 +71,7 @@ def main(
     json_string = json.dumps(results_dicts, indent=4)
 
     # Print or use the JSON string as needed
+
     print(json_string)
 if __name__ == "__main__":
     fire.Fire(main)

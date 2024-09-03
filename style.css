@@ -140,6 +140,13 @@ header #branding h1 {
     box-shadow: 0 0 0 2px rgba(0,123,255,0.5); /* Blue glow for accessibility */
 }
 
+.thank-you-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    text-align: center;
+}
+
 
 
     </style>
