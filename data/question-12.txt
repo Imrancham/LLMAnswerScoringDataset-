@@ -1,0 +1,18 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Wenn 3x+5=20 ist, was ist x? Erkläre, wie du diese Gleichung Schritt für Schritt lösen würdest.
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen der Gleichung.
+Punktzahl 1: Die Antwort beschreibt entweder den ersten oder den zweiten Schritt korrekt, aber nicht beide. Oder die Antwort hat den richtigen Wert für x, aber die Schritte sind nicht vollständig oder korrekt beschrieben.
+Punktzahl 2: Die Antwort beschreibt beide Schritte korrekt und enthält den richtigen Wert für x.
+
+# Beispiele:
+Punktzahl 0: Um x zu finden, musst du 20 durch 3 teilen.
+Punktzahl 1: Subtrahiere 5 von beiden Seiten, um 3x = 15 zu erhalten.
+Punktzahl 2: Um 3x + 5 = 20 zu lösen, subtrahiere zuerst 5 von beiden Seiten, um 3x = 15 zu erhalten. Dann teile beide Seiten durch 3, um x = 5 zu finden.

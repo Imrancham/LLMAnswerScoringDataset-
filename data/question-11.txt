@@ -1,0 +1,20 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Betrachte die Sequenz: 2, 4, 8, 16, ...
+Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Sequenz.
+Punktzahl 1: Die Antwort beschreibt entweder das Muster korrekt oder enthält die richtige nächste Zahl (32).
+Punktzahl 2: Die Antwort beschreibt das Muster korrekt und enthält die richtige nächste Zahl (32).
+
+# Beispiele
+
+Punktzahl 0: Die Sequenz erhöht sich irgendwie. Die nächste Zahl ist 31.
+Punktzahl 1: Die nächste Zahl ist 32.
+Punktzahl 2: Die Sequenz verdoppelt jede Zahl, um die nächste zu erhalten. Um die nächste Zahl zu finden, multipliziere die letzte Zahl in der Sequenz mit 2. Die nächste Zahl nach 16 wäre 16*2=32.

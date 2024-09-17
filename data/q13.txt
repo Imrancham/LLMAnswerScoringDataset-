@@ -1,0 +1,1 @@
+Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.

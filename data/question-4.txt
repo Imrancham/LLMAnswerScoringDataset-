@@ -1,0 +1,13 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 4: Warum wachsen die Wurzeln zuerst, wenn wir einen Samen pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Weil sie schneller wachsen“).
+1 Punkt: Gibt eine sehr einfache Antwort ohne Erklärung (z. B. „Damit die Pflanze Wasser bekommen kann“).
+2 Punkte: Gibt eine teilweise richtige Erklärung (z. B. „Wurzeln wachsen zuerst, um Stabilität zu gewährleisten und Wasser aufzunehmen“).
+3 Punkte: Bietet eine vollständige und klare Erklärung (z. B. „Die Wurzeln wachsen zuerst, um die Pflanze im Boden zu verankern und um Wasser und Nährstoffe aufzunehmen, die für das Wachstum der restlichen Pflanze wichtig sind“).

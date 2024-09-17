@@ -1,0 +1,13 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 7: Nenne fünf Primzahlen unter 20.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „1“, „9“, „15“).
+1 Punkt: Nennt eine oder zwei richtige Primzahlen, aber auch falsche Begriffe oder weniger Antworten.
+2 Punkte: Nennt drei oder vier richtige Primzahlen, enthält aber eine falsche oder fehlende Angabe.
+3 Punkte: Nennt fünf Primzahlen unter 20 richtig (erwartete Antworten: 2, 3, 5, 7, 11, 13, 17, 19).

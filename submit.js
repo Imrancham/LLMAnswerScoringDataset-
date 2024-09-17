@@ -83,6 +83,8 @@ async function handleSubmit(e, userID) {
         const data = await response.json();
         // Remove spinner
         spinner.remove();
+        window.location.href = 'thankyou.html';
+
 
         inputs.forEach(input => {
             if (input.value.trim() !== '') { // Only include non-empty inputs
@@ -120,6 +122,26 @@ async function handleSubmit2(e, userID) {
             formData[input.name] = input.value;
         }
     });
+     // Check if each question has at least two non-empty answers
+     const questions = document.querySelectorAll(".question:not(.submit-button)");
+     let validSubmission = true;
+ 
+     questions.forEach(question => {
+         const questionInputs = question.querySelectorAll('input[type="text"]');
+         const nonEmptyInputs = Array.from(questionInputs).filter(input => input.value.trim() !== '');
+         if (nonEmptyInputs.length < 2) {
+             validSubmission = false;
+             // Highlight the question or show an error message
+             question.style.border = '2px solid red'; // Example of highlighting
+         } else {
+             question.style.border = ''; // Remove highlight if valid
+         }
+     });
+ 
+     if (!validSubmission) {
+         alert('Please provide at least two answers for each question.');
+         return; // Stop form submission
+     }
 
     try {
         // Sending the form data to the server
@@ -143,6 +165,8 @@ async function handleSubmit2(e, userID) {
         thankYouMessage.textContent = 'Thank you for your submission!';
         thankYouMessage.className = 'thank-you-message';
         form.appendChild(thankYouMessage);
+        window.location.href = `thankyou.html?userID=${userID}`;
+
 
     } catch (error) {
         console.error('Error:', error);

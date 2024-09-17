@@ -1,0 +1,13 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 5: Wie funktioniert die Photosynthese bei Pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Erklärung.
+1 Punkt: Gibt eine sehr einfache Antwort mit wenig Details (z. B. „Pflanzen nutzen das Sonnenlicht, um Nahrung herzustellen“).
+2 Punkte: Bietet eine teilweise richtige Erklärung, der es aber an Tiefe fehlt (z. B. „Pflanzen nutzen Sonnenlicht, Kohlendioxid und Wasser, um Nahrung zu erzeugen und Sauerstoff freizusetzen“).
+3 Punkte: Bietet eine detaillierte und vollständige Erklärung (z. B. „Photosynthese ist der Prozess, bei dem Pflanzen Sonnenlicht nutzen, um Wasser und Kohlendioxid in Glukose (Nahrung) und Sauerstoff umzuwandeln. Dieser Prozess findet in den Chloroplasten der Pflanzenzellen statt, und zwar hauptsächlich in zwei Stufen: den lichtabhängigen Reaktionen und dem Calvin-Zyklus").

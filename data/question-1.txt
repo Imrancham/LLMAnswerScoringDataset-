@@ -1,0 +1,13 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 1: Was ist ein Algorithmus?
+
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Antwort (z. B. „Ein Algorithmus ist ein Computerprogramm“).
+1 Punkt: Gibt eine vage oder teilweise richtige Definition (z. B. „Es ist eine Reihe von Anweisungen“, ohne den Zweck zu erklären).
+2 Punkte: Definiert einen Algorithmus korrekt, aber ohne viele Details (z. B. „Ein schrittweiser Prozess zur Lösung eines Problems“).
+3 Punkte: Bietet eine klare und detaillierte Definition (z. B. „Ein Algorithmus ist eine Reihe von schrittweisen Anweisungen oder Regeln, um ein Problem zu lösen oder eine bestimmte Aufgabe auszuführen“).

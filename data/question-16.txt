@@ -1,0 +1,18 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
+
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Berechnung der Wahrscheinlichkeit. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
+
+# Beispiele
+
+Punktzahl 0: Die Wahrscheinlichkeit ist 0,5, weil die Hälfte der Schüler Schokoladeneis mögen.
+Punktzahl 1: Die Wahrscheinlichkeit, dass der neue Schüler Schokoladeneis mag, beträgt 75 %.
+Punktzahl 2: ie Wahrscheinlichkeit wird durch die relative Häufigkeit der Schüler, die Schokoladeneis mögen, geschätzt, die 150/200=0.75 oder 75 % beträgt. Daher besteht eine 75 %ige Chance, dass der neue Schüler Schokoladeneis mag.

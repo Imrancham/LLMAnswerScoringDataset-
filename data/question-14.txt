@@ -1,0 +1,17 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Was ist größer, 2/3 oder 3/4? Begründe deine Antwort.
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Vergleichen der Brüche. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
+
+# Beispiele
+
+Punktzahl 0: 2/3 ist größer als 3/4, weil der Zähler von 2/3 größer ist.
+Punktzahl 1: Um 2/3 und 3/4 zu vergleichen, finde einen gemeinsamen Nenner.
+Punktzahl 2:  Um 2/3 und 3/4 zu vergleichen, finde einen gemeinsamen Nenner. Der kleinste gemeinsame Nenner ist 12. Umwandlung ergibt 2/3=8/12 und 3/4=9/12. Da 9/12 größer als 8/12 ist, ist 3/4 größer.

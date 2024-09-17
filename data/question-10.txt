@@ -1,0 +1,13 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 10: Nennen Sie fünf Elemente aus dem Periodensystem.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Elemente (z. B. „Wasser“, „Salz“, „Holz“).
+1 Punkt: Nennt ein oder zwei richtige Elemente, aber auch falsche Elemente oder weniger Elemente.
+2 Punkte: Nennt drei oder vier richtige Elemente aus dem Periodensystem, enthält aber ein falsches Element oder ist unvollständig.
+3 Punkte: Nennt fünf Elemente aus dem Periodensystem richtig (z. B. Wasserstoff, Kohlenstoff, Sauerstoff, Gold, Eisen).

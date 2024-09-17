@@ -1,0 +1,148 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 1: Der Begriff „Algorithmus“ wird häufig in der Informatik und Mathematik verwendet. Was ist ein Algorithmus?
+
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Antwort (z. B. „Ein Algorithmus ist ein Computerprogramm“).
+1 Punkt: Gibt eine vage oder teilweise richtige Definition (z. B. „Es ist eine Reihe von Anweisungen“, ohne den Zweck zu erklären).
+2 Punkte: Definiert einen Algorithmus korrekt, aber ohne viele Details (z. B. „Ein schrittweiser Prozess zur Lösung eines Problems“).
+3 Punkte: Bietet eine klare und detaillierte Definition (z. B. „Ein Algorithmus ist eine Reihe von schrittweisen Anweisungen oder Regeln, um ein Problem zu lösen oder eine bestimmte Aufgabe auszuführen“).
+
+------------------------------------------------------
+# Problem 2: Definieren Sie den Begriff der Funktion in der Mathematik.
+
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Eine Funktion ist eine Aufgabe, die etwas erfüllt“).
+1 Punkt: Gibt eine sehr einfache oder vage Definition (z. B. „Eine Funktion verbindet Dinge miteinander“).
+2 Punkte: Nennt das Schlüsselkonzept einer Funktion richtig, aber nicht detailliert genug (z. B. „Eine Funktion ist eine Beziehung zwischen Eingaben und Ausgaben“).
+3 Punkte: Liefert eine klare, detaillierte Definition (z. B. „Eine Funktion ist eine mathematische Beziehung, bei der jede Eingabe eine eindeutige Ausgabe hat, die oft als f(x) beschrieben wird“).
+
+
+-------------------------------------------------------
+
+# Problem 3: Eine Schule kauft Schulhefte für 2 $ pro Stück und verkauft sie an Schüler für 3 $ pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 $ erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Lösung.
+1 Punkt: Erkennt richtig die Notwendigkeit, die Anzahl der verkauften Notebooks zu ermitteln, macht aber erhebliche Rechenfehler oder verwendet eine falsche Methode.
+2 Punkte: Bietet eine korrekte Lösung an, erklärt aber den Ansatz nur unvollständig (z. B. „Sie machten $1 Gewinn pro Notebook, also teilen Sie 100 durch 1, um 100 Notebooks zu erhalten“, ohne den Gewinn zu erklären).
+3 Punkte: Liefert eine vollständige, korrekte Erklärung:
+Der Gewinn pro Notebook beträgt 1 $ (3 - 2 = 1).
+Um $100 Gewinn zu machen, teilt man $100 durch $1: 
+100÷1=100.
+Es wurden also 100 Schulhefte verkauft.
+------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 4: Warum wachsen die Wurzeln zuerst, wenn wir einen Samen pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Weil sie schneller wachsen“).
+1 Punkt: Gibt eine sehr einfache Antwort ohne Erklärung (z. B. „Damit die Pflanze Wasser bekommen kann“).
+2 Punkte: Gibt eine teilweise richtige Erklärung (z. B. „Wurzeln wachsen zuerst, um Stabilität zu gewährleisten und Wasser aufzunehmen“).
+3 Punkte: Bietet eine vollständige und klare Erklärung (z. B. „Die Wurzeln wachsen zuerst, um die Pflanze im Boden zu verankern und um Wasser und Nährstoffe aufzunehmen, die für das Wachstum der restlichen Pflanze wichtig sind“).
+
+-------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 5: Wie funktioniert die Photosynthese bei Pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Erklärung.
+1 Punkt: Gibt eine sehr einfache Antwort mit wenig Details (z. B. „Pflanzen nutzen das Sonnenlicht, um Nahrung herzustellen“).
+2 Punkte: Bietet eine teilweise richtige Erklärung, der es aber an Tiefe fehlt (z. B. „Pflanzen nutzen Sonnenlicht, Kohlendioxid und Wasser, um Nahrung zu erzeugen und Sauerstoff freizusetzen“).
+3 Punkte: Bietet eine detaillierte und vollständige Erklärung (z. B. „Photosynthese ist der Prozess, bei dem Pflanzen Sonnenlicht nutzen, um Wasser und Kohlendioxid in Glukose (Nahrung) und Sauerstoff umzuwandeln. Dieser Prozess findet in den Chloroplasten der Pflanzenzellen statt, und zwar hauptsächlich in zwei Stufen: den lichtabhängigen Reaktionen und dem Calvin-Zyklus").
+
+----------------------------------------------------
+----------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 6: Nennen Sie drei mathematische Operationen.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „Kreis“, „Quadrat“, „Bruch“).
+1 Punkt: Nennt eine richtige mathematische Operation (z. B. Addition, Subtraktion, Multiplikation, Division, Potenzierung), aber andere Begriffe sind falsch oder fehlen.
+2 Punkte: Nennt zwei richtige Operationen, aber ein falsches oder fehlendes Element.
+3 Punkte: Nennt alle drei Operationen richtig (z. B. Addition, Subtraktion, Multiplikation, Division usw.).
+----------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 7: Nenne fünf Primzahlen unter 20.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „1“, „9“, „15“).
+1 Punkt: Nennt eine oder zwei richtige Primzahlen, aber auch falsche Begriffe oder weniger Antworten.
+2 Punkte: Nennt drei oder vier richtige Primzahlen, enthält aber eine falsche oder fehlende Angabe.
+3 Punkte: Nennt fünf Primzahlen unter 20 richtig (erwartete Antworten: 2, 3, 5, 7, 11, 13, 17, 19).
+----------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 8: Nennen Sie drei Grundfarben.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „rosa“, „schwarz“, „grau“).
+1 Punkt: Nennt eine richtige Grundfarbe, aber falsche Begriffe oder ist unvollständig.
+2 Punkte: Nennt zwei richtige Grundfarben.
+3 Punkte: Nennt alle drei Grundfarben richtig: rot, blau und gelb.
+
+------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 9: Nennen Sie drei Methoden der Wärmeübertragung.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Begriffe (z. B. „Reibung“, „Isolierung“).
+1 Punkt: Nennt eine richtige Methode der Wärmeübertragung (z. B. Leitung, Konvektion, Strahlung), aber andere Antworten sind falsch oder fehlen.
+2 Punkte: Nennt zwei korrekte Methoden der Wärmeübertragung.
+3 Punkte: Nennt alle drei Methoden richtig: Leitung, Konvektion und Strahlung.
+
+-------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 10: Nennen Sie fünf Elemente aus dem Periodensystem.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Elemente (z. B. „Wasser“, „Salz“, „Holz“).
+1 Punkt: Nennt ein oder zwei richtige Elemente, aber auch falsche Elemente oder weniger Elemente.
+2 Punkte: Nennt drei oder vier richtige Elemente aus dem Periodensystem, enthält aber ein falsches Element oder ist unvollständig.
+3 Punkte: Nennt fünf Elemente aus dem Periodensystem richtig (z. B. Wasserstoff, Kohlenstoff, Sauerstoff, Gold, Eisen).

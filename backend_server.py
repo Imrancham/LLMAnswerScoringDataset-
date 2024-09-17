@@ -10,6 +10,9 @@ app = Flask(__name__)
 CORS(app)
 
 # Constants
+# Define the path for the CSV file
+csv_file_path = '/data/ichamieh/LLMAnswerScoringDataset/output/participants.csv'
+
 CSV_HEADERS = ["UserID", "QuestionID", "StudentAnswer", "ResponseRating"]
 CSV_FILE_PATH = "/data/ichamieh/LLMAnswerScoringDataset/output/responses.csv"
 QUESTION_DIRECTORY = "/data/ichamieh/LLMAnswerScoringDataset/data"
@@ -133,6 +136,45 @@ def save_data():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+
+@app.route('/saveEmail', methods=['POST'])
+def save_email():
+    try:
+        data = request.json
+        email = data.get('email')
+        user_id = data.get('userId')
+        print("something")
+        print(email)
+        print(user_id)
+
+        if email and user_id:
+            # Check if the CSV file exists
+            file_exists = os.path.isfile(csv_file_path)
+
+            # Open the CSV file in append mode
+            with open(csv_file_path, mode='a', newline='') as file:
+                writer = csv.writer(file)
+
+                # Write the header only if the file is new
+                if not file_exists:
+                    writer.writerow(['userID', 'email'])
+
+                # Write the user ID and email to the CSV file
+                writer.writerow([user_id, email])
+
+            # Print the received data for debugging
+            print(f"Received email: {email}, userID: {user_id}")
+
+            # Return a success response
+            return jsonify({'message': 'Email and userID saved successfully!'}), 200
+        else:
+            return jsonify({'error': 'Email or userID not provided!'}), 400
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return jsonify({'error': 'An error occurred processing your request.'}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

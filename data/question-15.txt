@@ -1,0 +1,4 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Angenommen, du weißt, dass alle Mathematiklehrer freundlich sind. Wenn Herr Braun ein Mathematiklehrer ist, was kannst du dann über Herrn Braun sagen? Erkläre deine Überlegungen.
+Antwort: Da alle Mathematiklehrer freundlich sind und Herr Braun ein Mathematiklehrer ist, folgt logisch, dass Herr Braun freundlich ist. Dies ist eine Anwendung der universellen Quantifizierung in der Logik.

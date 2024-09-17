@@ -1,0 +1,14 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 8: Nennen Sie drei Grundfarben.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „rosa“, „schwarz“, „grau“).
+1 Punkt: Nennt eine richtige Grundfarbe, aber falsche Begriffe oder ist unvollständig.
+2 Punkte: Nennt zwei richtige Grundfarben.
+3 Punkte: Nennt alle drei Grundfarben richtig: rot, blau und gelb.
+

@@ -1,0 +1,17 @@
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 3: Eine Schule kauft Schulhefte für 2 $ pro Stück und verkauft sie an Schüler für 3 $ pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 $ erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Lösung.
+1 Punkt: Erkennt richtig die Notwendigkeit, die Anzahl der verkauften Notebooks zu ermitteln, macht aber erhebliche Rechenfehler oder verwendet eine falsche Methode.
+2 Punkte: Bietet eine korrekte Lösung an, erklärt aber den Ansatz nur unvollständig (z. B. „Sie machten $1 Gewinn pro Notebook, also teilen Sie 100 durch 1, um 100 Notebooks zu erhalten“, ohne den Gewinn zu erklären).
+3 Punkte: Liefert eine vollständige, korrekte Erklärung:
+Der Gewinn pro Notebook beträgt 1 $ (3 - 2 = 1).
+Um $100 Gewinn zu machen, teilt man $100 durch $1: 
+100÷1=100.
+Es wurden also 100 Schulhefte verkauft.
