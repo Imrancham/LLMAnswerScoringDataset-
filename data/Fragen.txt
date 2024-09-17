@@ -28,7 +28,7 @@ Bewertungsskala:
 
 -------------------------------------------------------
 
-# Problem 3: Eine Schule kauft Schulhefte für 2 $ pro Stück und verkauft sie an Schüler für 3 $ pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 $ erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
+# Problem 3: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 $ erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
 # Rubriken
 
 Rubrik Bereich: 0-3
@@ -146,3 +146,150 @@ Bewertungsskala:
 1 Punkt: Nennt ein oder zwei richtige Elemente, aber auch falsche Elemente oder weniger Elemente.
 2 Punkte: Nennt drei oder vier richtige Elemente aus dem Periodensystem, enthält aber ein falsches Element oder ist unvollständig.
 3 Punkte: Nennt fünf Elemente aus dem Periodensystem richtig (z. B. Wasserstoff, Kohlenstoff, Sauerstoff, Gold, Eisen).
+
+------------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 11: Betrachte die Sequenz: 2, 4, 8, 16, ...
+Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Sequenz.
+Punktzahl 1: Die Antwort beschreibt entweder das Muster korrekt oder enthält die richtige nächste Zahl (32).
+Punktzahl 2: Die Antwort beschreibt das Muster korrekt und enthält die richtige nächste Zahl (32).
+
+# Beispiele
+
+Punktzahl 0: Die Sequenz erhöht sich irgendwie. Die nächste Zahl ist 31.
+Punktzahl 1: Die nächste Zahl ist 32.
+Punktzahl 2: Die Sequenz verdoppelt jede Zahl, um die nächste zu erhalten. Um die nächste Zahl zu finden, multipliziere die letzte Zahl in der Sequenz mit 2. Die nächste Zahl nach 16 wäre 16*2=32.
+--------------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 12: Wenn 3x+5=20 ist, was ist x? Erkläre, wie du diese Gleichung Schritt für Schritt lösen würdest.
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen der Gleichung.
+Punktzahl 1: Die Antwort beschreibt entweder den ersten oder den zweiten Schritt korrekt, aber nicht beide. Oder die Antwort hat den richtigen Wert für x, aber die Schritte sind nicht vollständig oder korrekt beschrieben.
+Punktzahl 2: Die Antwort beschreibt beide Schritte korrekt und enthält den richtigen Wert für x.
+
+# Beispiele:
+Punktzahl 0: Um x zu finden, musst du 20 durch 3 teilen.
+Punktzahl 1: Subtrahiere 5 von beiden Seiten, um 3x = 15 zu erhalten.
+Punktzahl 2: Um 3x + 5 = 20 zu lösen, subtrahiere zuerst 5 von beiden Seiten, um 3x = 15 zu erhalten. Dann teile beide Seiten durch 3, um x = 5 zu finden.
+
+--------------------------------------------------------------
+
+# Problem 13: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen des Problems. Die Schritte sind falsch oder fehlen, und die Abmessungen des Rechtecks sind nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Die Abmessungen des Rechtecks sind möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und die Abmessungen des Rechtecks sind korrekt.
+
+# Beispiele:
+
+Punktzahl 0: Die Länge ist 15 Meter und die Breite ist 10 Meter.
+Punktzahl 1: Sei die Breite w. Die Länge ist 2w. Die Umfangsformel ist 2(Länge+Breite) = 30. Setzt man ein, erhält man 2(2w+2)=30 also 6w = 30, und w = 5 Meter. Die Abmessungen sind 5 Meter mal 10 Meter.
+Punktzahl 2: Sei die Breite 2.  Die Läne ist 2w. Die Umfangsformel ist 2(Länge + Breite)=30. Setzt man ein, erhält man2(2w+w) =30, also 6w = 30, und w =5 Meter. Die Länge ist 2w = 2*5 = 10 Meter. Die Abmessungen sind 5 Metermal 10.
+
+-------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 14: Was ist größer, 2/3 oder 3/4? Begründe deine Antwort.
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Vergleichen der Brüche. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
+
+# Beispiele
+
+Punktzahl 0: 2/3 ist größer als 3/4, weil der Zähler von 2/3 größer ist.
+Punktzahl 1: Um 2/3 und 3/4 zu vergleichen, finde einen gemeinsamen Nenner.
+Punktzahl 2:  Um 2/3 und 3/4 zu vergleichen, finde einen gemeinsamen Nenner. Der kleinste gemeinsame Nenner ist 12. Umwandlung ergibt 2/3=8/12 und 3/4=9/12. Da 9/12 größer als 8/12 ist, ist 3/4 größer.
+
+---------------------------------------------------------------
+
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 15: Angenommen, du weißt, dass alle Mathematiklehrer freundlich sind. Wenn Herr Braun ein Mathematiklehrer ist, was kannst du dann über Herrn Braun sagen? Erkläre deine Überlegungen.
+Antwort: Da alle Mathematiklehrer freundlich sind und Herr Braun ein Mathematiklehrer ist, folgt logisch, dass Herr Braun freundlich ist. Dies ist eine Anwendung der universellen Quantifizierung in der Logik.
+
+-----------------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 15: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
+
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Berechnung der Wahrscheinlichkeit. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
+
+# Beispiele
+
+Punktzahl 0: Die Wahrscheinlichkeit ist 0,5, weil die Hälfte der Schüler Schokoladeneis mögen.
+Punktzahl 1: Die Wahrscheinlichkeit, dass der neue Schüler Schokoladeneis mag, beträgt 75 %.
+Punktzahl 2: ie Wahrscheinlichkeit wird durch die relative Häufigkeit der Schüler, die Schokoladeneis mögen, geschätzt, die 150/200=0.75 oder 75 % beträgt. Daher besteht eine 75 %ige Chance, dass der neue Schüler Schokoladeneis mag.
+-------------------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 16: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
+Antwort: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Verwendung von Algebra zur Überprüfung der Rechnung. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
+
+# Beispiele
+
+Punktzahl 0: Die Rechnung ist 15 Dollar. 
+Punktzahl 1: Die Kosten für die Burger sind 3×4=12 Dollar und für die Limonaden 4×1,50=6 Dollar. Die Gesamtkosten sind 18 Dollar. Die Rechnung ist korrekt, aber es wird nicht erklärt, wie man dies mit Algebra überprüfen kann.
+Punktzahl 2: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
+
+-------------------------------------------------------------------
+Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
+Antwort: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Verwendung von Algebra zur Überprüfung der Rechnung. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
+Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
+Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
+
+# Beispiele
+
+Punktzahl 0: Die Rechnung ist 15 Dollar. 
+Punktzahl 1: Die Kosten für die Burger sind 3×4=12 Dollar und für die Limonaden 4×1,50=6 Dollar. Die Gesamtkosten sind 18 Dollar. Die Rechnung ist korrekt, aber es wird nicht erklärt, wie man dies mit Algebra überprüfen kann.
+Punktzahl 2: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
