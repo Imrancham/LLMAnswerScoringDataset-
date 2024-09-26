@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umfrage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="src/HRW_Logo_cyan.bmp" alt="Logo 1">
+        <div id="branding"></div>
+        <img src="src/fernuniversitat-in-hagen-seeklogo-svg.png" alt="Logo 2">
+    </header>
+
+    <div class="container">
+        <div class="questionnaire">
+            <div id="questionContainer">
+                <!-- The first question is manually loaded here -->
+                <form id="questionnaireForm">
+                    <div class="question0" id="question0">
+                        <h4>Beispiel:</h4>
+                        <label for="q0-1">Wie viel kostet drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Euro und jede Limonade 1,50 Euro kostet.</label>
+                        <p>Deine Antwort.</p>
+                        <p> <b>Antowrt 1:</b> 3*4 + 4*1,5 = 18 Euro</p>
+                        <p>Gib andere Antworten, die falsch sind, aber richtig erscheinen. Versuche, das System zu überlasten (auszutricksen).</p>
+                        <p><b>Antowrt 2:</b> 8 + 10  = 18</p>
+                        <p><b>Antowrt 3:</b> Die richtige Anwort ist 25 Euro weil gibt es noch die liefer kosten.</p>
+                        <p><b>Antowrt 4:</b> Ich denke, es kostet nicht viel, du kannst es dir leisten.</p>
+                        <p><b>Antowrt 5:</b> die frage ist. wie viel kostet drei Burger? Antwort: es kostet 4*3 = 12 </p>
+                    </div>
+    
+                    
+        
+                </form>
+            </div>
+            <button type="button" class="add-answer" id="add-answer">Antwort hinzufügen +</button>
+<br> <br> 
+            <button type="button" id="prevButton">Zurück</button>
+            <button type="button" id="nextButton">Weiter</button>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>

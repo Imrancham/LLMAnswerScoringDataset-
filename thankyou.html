@@ -1,26 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
+    <title>Vielen Dank</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Thank You!</h1>
+        <img src="src/HRW_Logo_cyan.bmp" alt="Logo 1">
+        <div id="branding"></div>
+        <img src="src/fernuniversitat-in-hagen-seeklogo-svg.png" alt="Logo 2">
     </header>
     <div class="container">
         <div class="thank-you-message">
             <h2>Vielen Dank für Ihren Beitrag!</h2>
             <p>Wir freuen uns über Ihre Teilnahme. Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie die Chance auf einen der Amazon-Gutscheine gewinnen möchten!:</p>
-            <form id="emailForm">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Submit</button>
+            
+            <form id="feedbackForm">
+                <!-- Question 1: Familiarity with LLMs -->
+                <div class="question">
+                    <label for="familiarity">1. Wie vertraut bist Du mit LLMs wie ChatGPT?*</label>
+                    <input type="number" id="familiarity" name="familiarity" min="1" max="5" required>
+                    <p>1 = Gar nicht vertraut, 5 = Sehr vertraut</p>
+                </div>
+
+                <!-- Question 2: Frequency of using LLMs -->
+                <div class="question">
+                    <label>2. Wie oft nutzt Du ChatGPT oder ähnliche LLMs?*</label>
+                    <div class="question_rad">
+                        <input type="radio" id="daily" name="usage_frequency" value="daily" required>
+                        <label for="daily"> Täglich</label>
+                    </div>
+                    <div class="question_rad">
+                        <input type="radio" id="few_times_per_week" name="usage_frequency" value="few_times_per_week">
+                        <label for="few_times_per_week"> Ein paar Mal pro Woche</label>
+                    </div>
+                    <div class="question_rad">
+                        <input type="radio" id="few_times_per_month" name="usage_frequency" value="few_times_per_month">
+                        <label for="few_times_per_month"> Ein paar Mal pro Monat</label>
+                    </div>
+                </div>
+
+                <!-- Question 3: Other LLMs used -->
+                <div class="question">
+                    <label for="other_llms">3. Benutzt Du andere LLMs? Wenn ja, welche?</label>
+                    <input type="text" id="other_llms" name="other_llms">
+                </div>
+
+                <!-- Email field -->
+                <div class="question">
+                    <p>Gib Deine E-Mail-Adresse ein, um die Chance zu haben, einen der drei Amazon-Gutscheine zu gewinnen.</p>
+                    <p>Der Fragebogen ist anonym, und es ist freiwillig, Deine E-Mail-Adresse anzugeben. Diese wird nur im Falle eines Gewinns verwendet.</p>
+                    <label for="email">E-Mail-Adresse:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit">Absenden</button>
             </form>
         </div>
     </div>
-    <script src="thankyou.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
