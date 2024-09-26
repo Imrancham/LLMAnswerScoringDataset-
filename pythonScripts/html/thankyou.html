@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vielen Dank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vielen Dank!</h1>
+    </header>
+    <div class="container">
+        <div class="thank-you-message">
+            <h2>Vielen Dank für Ihren Beitrag!</h2>
+            <p>Wir freuen uns über Ihre Teilnahme. Bitte geben Sie Ihre E-Mail-Adresse an, wenn Sie die Chance auf einen der Amazon-Gutscheine gewinnen möchten!:</p>
+            
+            <form id="feedbackForm">
+                <!-- Question 1: Familiarity with LLMs -->
+                <div class="question">
+                    <label for="familiarity">1. Wie vertraut sind Sie mit LLMs wie ChatGPT?</label>
+                    <input type="number" id="familiarity" name="familiarity" min="1" max="5" required>
+                    <p>1 = Gar nicht vertraut, 5 = Sehr vertraut</p>
+                </div>
+
+                <!-- Question 2: Frequency of using LLMs -->
+                <div class="question">
+                    <label>2. Wie oft nutzen Sie ChatGPT oder ähnliche LLMs?</label>
+                    <div class="question_rad">
+                        <input type="radio" id="daily" name="usage_frequency" value="daily" required>
+                        <label for="daily"> Täglich</label>
+                    </div>
+                    <div class="question_rad">
+                        <input type="radio" id="few_times_per_week" name="usage_frequency" value="few_times_per_week">
+                        <label for="few_times_per_week"> Ein paar Mal pro Woche</label>
+                    </div>
+                    <div class="question_rad">
+                        <input type="radio" id="few_times_per_month" name="usage_frequency" value="few_times_per_month">
+                        <label for="few_times_per_month"> Ein paar Mal pro Monat</label>
+                    </div>
+                </div>
+
+                <!-- Question 3: Other LLMs used -->
+                <div class="question">
+                    <label for="other_llms">3. Verwenden Sie andere LLMs? Wenn ja, welche?</label>
+                    <input type="text" id="other_llms" name="other_llms">
+                </div>
+
+                <!-- Email field -->
+                <div class="question">
+                    <label for="email">E-Mail-Adresse:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit">Absenden</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

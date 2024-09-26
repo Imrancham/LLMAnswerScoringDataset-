@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions and Consent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="src/HRW_Logo_cyan.bmp" alt="Logo 1">
+        <div id="branding"></div>
+        <img src="src/fernuniversitat-in-hagen-seeklogo-svg.png" alt="Logo 2">
+    </header>
+
+    <div class="container">
+        <h2>Schließen Sie sich uns an: Die Zukunft des Bildungssystems gestalten</h2>
+        <p>Willkommen zu unserer Studie zum Thema ChatBots als Bewertungssystem!</p>
+        <p>Wir erforschen, wie intelligente KI-Systeme die Antworten der Studierenden bewerten können. Durch Deine Teilnahme hilfst Du mit, die Zukunft der Bildung mitzugestalten!</p>
+        <p>Bist du bereit, mitzumachen? Dann lass uns loslegen!</p>
+        <p>Die Studie soll die Vulnerabilität von LLMs bei der Bewertung von Antworten testen. Bitte gib für jede Frage mindestens zwei verschiedene Antworten an, die deiner Meinung nach richtig sein könnten.</p>
+        <br>
+        <p>
+            Mit der Teilnahme hast Du die Chance, einen von drei <b>Amazon-Gutscheinen</b>  zu gewinnen.
+        </p>
+        <br>
+        <p>Mit der Teilnahme erklärst Du Dich damit einverstanden, dass Deine Daten für Forschungszwecke verwendet werden.
+
+        </p>
+
+        <form id="consentForm">
+            <div class="consent">
+                <label for="consent">
+                    Ich erkläre mich damit einverstanden, dass meine Daten für Forschungszwecke verwendet werden und dass sie veröffentlicht werden können. Ich werde keine persönlichen Daten angeben.
+                </label>
+                <input type="checkbox" id="consent" name="consent" required>
+            </div>
+            <div class="submit_question">
+                <button type="button" id="startButton" disabled>Fragebogen starten</button>
+            </div>
+        </form>
+    </div>
+
+    <<script>
+        // Function to generate a UUID
+        function generateUUID() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        // Store the UUID in localStorage when the form is submitted
+        document.addEventListener('DOMContentLoaded', function() {
+            const consentCheckbox = document.getElementById('consent');
+            const startButton = document.getElementById('startButton');
+
+            // Enable the button only if consent is given
+            consentCheckbox.addEventListener('change', function() {
+                startButton.disabled = !consentCheckbox.checked;
+            });
+
+            // On button click, generate a userID and store it in localStorage
+            startButton.addEventListener('click', function() {
+                // Check if a userId already exists in localStorage
+                let userId = localStorage.getItem('userId');
+                
+                // If no userId exists, generate a new one
+                if (!userId) {
+                    userId = generateUUID();
+                    localStorage.setItem('userId', userId);
+                }
+
+                console.log('Generated or retrieved userId:', userId);
+
+                // Redirect to questionnaire page
+                window.location.href = 'oneQ.html';
+            });
+        });
+    </script>
+</body>
+</html>
