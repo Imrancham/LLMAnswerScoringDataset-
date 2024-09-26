@@ -1,4 +1,35 @@
-# Problem 1: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+# Problem 1: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 Euro erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Lösung.
+1 Punkt: Erkennt richtig die Notwendigkeit, die Anzahl der verkauften Notebooks zu ermitteln, macht aber erhebliche Rechenfehler oder verwendet eine falsche Methode.
+2 Punkte: Bietet eine korrekte Lösung an, erklärt aber den Ansatz nur unvollständig (z. B. „Sie machten 1 Euro Gewinn pro Notebook, also teilen Sie 100 durch 1, um 100 Notebooks zu erhalten“, ohne den Gewinn zu erklären).
+3 Punkte: Liefert eine vollständige, korrekte Erklärung:
+Der Gewinn pro Notebook beträgt 1 Euro (3 - 2 = 1).
+Um 100 Euro Gewinn zu machen, teilt man 100 Euro durch 1: 
+100÷1=100.
+Es wurden also 100 Schulhefte verkauft.
+-----------------------------------------------------
+
+# Problem 2: Warum wachsen die Wurzeln zuerst, wenn wir einen Samen pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Weil sie schneller wachsen“).
+1 Punkt: Gibt eine sehr einfache Antwort ohne Erklärung (z. B. „Damit die Pflanze Wasser bekommen kann“).
+2 Punkte: Gibt eine teilweise richtige Erklärung (z. B. „Wurzeln wachsen zuerst, um Stabilität zu gewährleisten und Wasser aufzunehmen“).
+3 Punkte: Bietet eine vollständige und klare Erklärung (z. B. „Die Wurzeln wachsen zuerst, um die Pflanze im Boden zu verankern und um Wasser und Nährstoffe aufzunehmen, die für das Wachstum der restlichen Pflanze wichtig sind“).
+
+-------------------------------------------------------
+
+# Problem 3: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
 
 
 # Rubriken
@@ -17,37 +48,6 @@ Punktzahl 0: Die Länge ist 15 Meter und die Breite ist 10 Meter.
 Punktzahl 1: Sei die Breite w. Die Länge ist 2w. Die Umfangsformel ist 2(Länge+Breite) = 30. Setzt man ein, erhält man 2(2w+2)=30 also 6w = 30, und w = 5 Meter. Die Abmessungen sind 5 Meter mal 10 Meter.
 Punktzahl 2: Sei die Breite 2.  Die Läne ist 2w. Die Umfangsformel ist 2(Länge + Breite)=30. Setzt man ein, erhält man2(2w+w) =30, also 6w = 30, und w =5 Meter. Die Länge ist 2w = 2*5 = 10 Meter. Die Abmessungen sind 5 Metermal 10.
 
------------------------------------------------------
-
-# Problem 2: Warum wachsen die Wurzeln zuerst, wenn wir einen Samen pflanzen?
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Weil sie schneller wachsen“).
-1 Punkt: Gibt eine sehr einfache Antwort ohne Erklärung (z. B. „Damit die Pflanze Wasser bekommen kann“).
-2 Punkte: Gibt eine teilweise richtige Erklärung (z. B. „Wurzeln wachsen zuerst, um Stabilität zu gewährleisten und Wasser aufzunehmen“).
-3 Punkte: Bietet eine vollständige und klare Erklärung (z. B. „Die Wurzeln wachsen zuerst, um die Pflanze im Boden zu verankern und um Wasser und Nährstoffe aufzunehmen, die für das Wachstum der restlichen Pflanze wichtig sind“).
-
--------------------------------------------------------
-
-# Problem 3: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 Euro erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder eine völlig falsche Lösung.
-1 Punkt: Erkennt richtig die Notwendigkeit, die Anzahl der verkauften Notebooks zu ermitteln, macht aber erhebliche Rechenfehler oder verwendet eine falsche Methode.
-2 Punkte: Bietet eine korrekte Lösung an, erklärt aber den Ansatz nur unvollständig (z. B. „Sie machten 1 Euro Gewinn pro Notebook, also teilen Sie 100 durch 1, um 100 Notebooks zu erhalten“, ohne den Gewinn zu erklären).
-3 Punkte: Liefert eine vollständige, korrekte Erklärung:
-Der Gewinn pro Notebook beträgt 1 Euro (3 - 2 = 1).
-Um 100 Euro Gewinn zu machen, teilt man 100 Euro durch 1: 
-100÷1=100.
-Es wurden also 100 Schulhefte verkauft.
 ------------------------------------------------------
 
 # Problem 4: Wie funktioniert die Photosynthese bei Pflanzen?
@@ -63,26 +63,14 @@ Bewertungsskala:
 3 Punkte: Bietet eine detaillierte und vollständige Erklärung (z. B. „Photosynthese ist der Prozess, bei dem Pflanzen Sonnenlicht nutzen, um Wasser und Kohlendioxid in Glukose (Nahrung) und Sauerstoff umzuwandeln. Dieser Prozess findet in den Chloroplasten der Pflanzenzellen statt, und zwar hauptsächlich in zwei Stufen: den lichtabhängigen Reaktionen und dem Calvin-Zyklus").
 
 ----------------------------------------------------
-
-# Problem 5: Betrachte die Sequenz: 2, 6, 14, 30 ...
-Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
+# PRoblem 5: Was ist der Unterschied zwischen Funktion und Relation?
 
 # Rubriken
 
 Rubrik Bereich: 0-2
 
 Bewertungsskala:
-
-Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Sequenz.
-Punktzahl 1: Die Antwort beschreibt entweder das Muster korrekt oder enthält die richtige nächste Zahl (62).
-Punktzahl 2: Die Antwort beschreibt das Muster korrekt und enthält die richtige nächste Zahl (62).
-
-# Beispiele
-
-Punktzahl 0: Die Sequenz erhöht sich irgendwie. Die nächste Zahl ist 31.
-Punktzahl 1: Die nächste Zahl ist 62.
-Punktzahl 2: Die Sequenz jede Zahl +1 wird verdoppelt, um die nächste zu erhalten. Um die nächste Zahl zu finden,addieren wir 1 zu die letzte Zahl in der Sequenz und multiplizieren mit 2. Die nächste Zahl nach 30 wäre (30+1)*2=62.
---------------------------------------------------------------
+-------------------------------------------------------
 
 # Problem 6: Was ist größer, 2/3 oder 3/4? Begründe deine Antwort.
 
@@ -130,8 +118,28 @@ Bewertungsskala:
 3 Punkte: Nennt fünf Primzahlen unter 20 richtig (erwartete Antworten: 2, 3, 5, 7).
 ----------------------------------------------------
 
+# Problem 9: Betrachte die Sequenz: 2, 6, 14, 30 ...
+Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
 
-# Problem 9: Der Begriff „Algorithmus“ wird häufig in der Informatik und Mathematik verwendet. Was ist ein Algorithmus?
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Sequenz.
+Punktzahl 1: Die Antwort beschreibt entweder das Muster korrekt oder enthält die richtige nächste Zahl (62).
+Punktzahl 2: Die Antwort beschreibt das Muster korrekt und enthält die richtige nächste Zahl (62).
+
+# Beispiele
+
+Punktzahl 0: Die Sequenz erhöht sich irgendwie. Die nächste Zahl ist 31.
+Punktzahl 1: Die nächste Zahl ist 62.
+Punktzahl 2: Die Sequenz jede Zahl +1 wird verdoppelt, um die nächste zu erhalten. Um die nächste Zahl zu finden,addieren wir 1 zu die letzte Zahl in der Sequenz und multiplizieren mit 2. Die nächste Zahl nach 30 wäre (30+1)*2=62.
+--------------------------------------------------------------
+
+
+# Problem 10: Der Begriff „Algorithmus“ wird häufig in der Informatik und Mathematik verwendet. Was ist ein Algorithmus?
 
 # Rubriken
 
@@ -144,7 +152,7 @@ Bewertungsskala:
 3 Punkte: Bietet eine klare und detaillierte Definition (z. B. „Ein Algorithmus ist eine Reihe von schrittweisen Anweisungen oder Regeln, um ein Problem zu lösen oder eine bestimmte Aufgabe auszuführen“).
 
 ------------------------------------------------------
-# Problem 10: Definieren Sie den Begriff der Funktion in der Mathematik.
+# Problem 11: Definieren Sie den Begriff der Funktion in der Mathematik.
 
 # Rubriken
 
@@ -160,7 +168,7 @@ Bewertungsskala:
 
 ----------------------------------------------------
 
-# Problem 11: Nennen Sie drei mathematische Operationen.
+# Problem 12: Nennen Sie drei mathematische Operationen.
 # Rubriken
 
 Rubrik Bereich: 0-3
@@ -173,7 +181,7 @@ Bewertungsskala:
 3 Punkte: Nennt alle drei Operationen richtig (z. B. Addition, Subtraktion, Multiplikation, Division usw.).
 ----------------------------------------------------
 
-# Problem 12: Nennen Sie drei Grundfarben.
+# Problem 13: Nennen Sie drei Grundfarben.
 # Rubriken
 
 Rubrik Bereich: 0-3
@@ -188,7 +196,7 @@ Bewertungsskala:
 
 -------------------------------------------------------
 
-# Problem 13: Nennen Sie fünf Elemente aus dem Periodensystem.
+# Problem 14: Nennen Sie fünf Elemente aus dem Periodensystem.
 # Rubriken
 
 Rubrik Bereich: 0-3
@@ -202,7 +210,7 @@ Bewertungsskala:
 
 ------------------------------------------------------------
 
-# Problem 14: Wenn 3x+5=20 ist. wie löst man die Gleichung.
+# Problem 15: Wenn 3x+5=20 ist. wie löst man die Gleichung.
 
 # Rubriken
 
@@ -223,14 +231,14 @@ Punktzahl 2: Um 3x + 5 = 20 zu lösen, subtrahiere zuerst 5 von beiden Seiten, u
 
 
 
-# Problem 15: Angenommen, du weißt, dass alle Mathematiklehrer freundlich sind. Wenn Herr Braun ein Mathematiklehrer ist, was kannst du dann über Herrn Braun sagen? Erkläre deine Überlegungen.
+# Problem 16: Angenommen, du weißt, dass alle Mathematiklehrer freundlich sind. Wenn Herr Braun ein Mathematiklehrer ist, was kannst du dann über Herrn Braun sagen? Erkläre deine Überlegungen.
 
 Antwort: Da alle Mathematiklehrer freundlich sind und Herr Braun ein Mathematiklehrer ist, folgt logisch, dass Herr Braun freundlich ist. Dies ist eine Anwendung der universellen Quantifizierung in der Logik.
 
 -----------------------------------------------------------------
 
 
-# Problem 16: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
+# Problem 17: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
 
 
 Rubrik Bereich: 0-2
@@ -248,7 +256,7 @@ Punktzahl 1: Die Wahrscheinlichkeit, dass der neue Schüler Schokoladeneis mag, 
 Punktzahl 2: ie Wahrscheinlichkeit wird durch die relative Häufigkeit der Schüler, die Schokoladeneis mögen, geschätzt, die 150/200=0.75 oder 75 % beträgt. Daher besteht eine 75 %ige Chance, dass der neue Schüler Schokoladeneis mag.
 -------------------------------------------------------------------------------------
 
-# Problem 17: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
+# Problem 18: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
 
 
 Antwort: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
