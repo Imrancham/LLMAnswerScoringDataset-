@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="src/HRW_Logo_cyan.bmp" alt="Logo 1">
+        <div id="branding"></div>
+        <img src="src/fernuniversitat-in-hagen-seeklogo-svg.png" alt="Logo 2">
+    </header>
+
+    <div class="container">
+        <div class="questionnaire">
+            <h2>Schließen Sie sich uns an: Die Zukunft des Bildungssystems gestalten</h2>
+            <div id="questionContainer">
+                <!-- The first question is manually loaded here -->
+                <form id="questionnaireForm">
+                    <div class="question" id="question1">
+                        <label for="q1-1">1. Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.</label>
+                        <p>Geben Sie Ihre Antwort.</p>
+                        <input type="text" id="q1-1" name="q1-1">
+                        <p>Versuchen Sie andere Formulierungen, um das System auszutricksen.</p>
+                        <input type="text" id="q1-2" name="q1-2">
+                        <input type="text" id="q1-3" name="q1-3">
+                        <input type="text" id="q1-4" name="q1-4">
+                        <input type="text" id="q1-5" name="q1-5">
+                        <button type="button" class="add-answer" data-question-id="question1">Antwort hinzufügen +</button>
+                    </div>
+    
+                    
+        
+                </form>
+            </div>
+            <button type="button" id="prevButton">Zurück</button>
+            <button type="button" id="nextButton">Weiter</button>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
