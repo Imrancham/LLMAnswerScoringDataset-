@@ -1,196 +1,4 @@
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 1: Der Begriff „Algorithmus“ wird häufig in der Informatik und Mathematik verwendet. Was ist ein Algorithmus?
-
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-0 Punkte: Keine relevante Antwort oder eine völlig falsche Antwort (z. B. „Ein Algorithmus ist ein Computerprogramm“).
-1 Punkt: Gibt eine vage oder teilweise richtige Definition (z. B. „Es ist eine Reihe von Anweisungen“, ohne den Zweck zu erklären).
-2 Punkte: Definiert einen Algorithmus korrekt, aber ohne viele Details (z. B. „Ein schrittweiser Prozess zur Lösung eines Problems“).
-3 Punkte: Bietet eine klare und detaillierte Definition (z. B. „Ein Algorithmus ist eine Reihe von schrittweisen Anweisungen oder Regeln, um ein Problem zu lösen oder eine bestimmte Aufgabe auszuführen“).
-
-------------------------------------------------------
-# Problem 2: Definieren Sie den Begriff der Funktion in der Mathematik.
-
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Eine Funktion ist eine Aufgabe, die etwas erfüllt“).
-1 Punkt: Gibt eine sehr einfache oder vage Definition (z. B. „Eine Funktion verbindet Dinge miteinander“).
-2 Punkte: Nennt das Schlüsselkonzept einer Funktion richtig, aber nicht detailliert genug (z. B. „Eine Funktion ist eine Beziehung zwischen Eingaben und Ausgaben“).
-3 Punkte: Liefert eine klare, detaillierte Definition (z. B. „Eine Funktion ist eine mathematische Beziehung, bei der jede Eingabe eine eindeutige Ausgabe hat, die oft als f(x) beschrieben wird“).
-
-
--------------------------------------------------------
-
-# Problem 3: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 $ erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder eine völlig falsche Lösung.
-1 Punkt: Erkennt richtig die Notwendigkeit, die Anzahl der verkauften Notebooks zu ermitteln, macht aber erhebliche Rechenfehler oder verwendet eine falsche Methode.
-2 Punkte: Bietet eine korrekte Lösung an, erklärt aber den Ansatz nur unvollständig (z. B. „Sie machten $1 Gewinn pro Notebook, also teilen Sie 100 durch 1, um 100 Notebooks zu erhalten“, ohne den Gewinn zu erklären).
-3 Punkte: Liefert eine vollständige, korrekte Erklärung:
-Der Gewinn pro Notebook beträgt 1 $ (3 - 2 = 1).
-Um $100 Gewinn zu machen, teilt man $100 durch $1: 
-100÷1=100.
-Es wurden also 100 Schulhefte verkauft.
-------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 4: Warum wachsen die Wurzeln zuerst, wenn wir einen Samen pflanzen?
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Weil sie schneller wachsen“).
-1 Punkt: Gibt eine sehr einfache Antwort ohne Erklärung (z. B. „Damit die Pflanze Wasser bekommen kann“).
-2 Punkte: Gibt eine teilweise richtige Erklärung (z. B. „Wurzeln wachsen zuerst, um Stabilität zu gewährleisten und Wasser aufzunehmen“).
-3 Punkte: Bietet eine vollständige und klare Erklärung (z. B. „Die Wurzeln wachsen zuerst, um die Pflanze im Boden zu verankern und um Wasser und Nährstoffe aufzunehmen, die für das Wachstum der restlichen Pflanze wichtig sind“).
-
--------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 5: Wie funktioniert die Photosynthese bei Pflanzen?
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder eine völlig falsche Erklärung.
-1 Punkt: Gibt eine sehr einfache Antwort mit wenig Details (z. B. „Pflanzen nutzen das Sonnenlicht, um Nahrung herzustellen“).
-2 Punkte: Bietet eine teilweise richtige Erklärung, der es aber an Tiefe fehlt (z. B. „Pflanzen nutzen Sonnenlicht, Kohlendioxid und Wasser, um Nahrung zu erzeugen und Sauerstoff freizusetzen“).
-3 Punkte: Bietet eine detaillierte und vollständige Erklärung (z. B. „Photosynthese ist der Prozess, bei dem Pflanzen Sonnenlicht nutzen, um Wasser und Kohlendioxid in Glukose (Nahrung) und Sauerstoff umzuwandeln. Dieser Prozess findet in den Chloroplasten der Pflanzenzellen statt, und zwar hauptsächlich in zwei Stufen: den lichtabhängigen Reaktionen und dem Calvin-Zyklus").
-
-----------------------------------------------------
-----------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 6: Nennen Sie drei mathematische Operationen.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „Kreis“, „Quadrat“, „Bruch“).
-1 Punkt: Nennt eine richtige mathematische Operation (z. B. Addition, Subtraktion, Multiplikation, Division, Potenzierung), aber andere Begriffe sind falsch oder fehlen.
-2 Punkte: Nennt zwei richtige Operationen, aber ein falsches oder fehlendes Element.
-3 Punkte: Nennt alle drei Operationen richtig (z. B. Addition, Subtraktion, Multiplikation, Division usw.).
-----------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 7: Nenne fünf Primzahlen unter 20.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „1“, „9“, „15“).
-1 Punkt: Nennt eine oder zwei richtige Primzahlen, aber auch falsche Begriffe oder weniger Antworten.
-2 Punkte: Nennt drei oder vier richtige Primzahlen, enthält aber eine falsche oder fehlende Angabe.
-3 Punkte: Nennt fünf Primzahlen unter 20 richtig (erwartete Antworten: 2, 3, 5, 7, 11, 13, 17, 19).
-----------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 8: Nennen Sie drei Grundfarben.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „rosa“, „schwarz“, „grau“).
-1 Punkt: Nennt eine richtige Grundfarbe, aber falsche Begriffe oder ist unvollständig.
-2 Punkte: Nennt zwei richtige Grundfarben.
-3 Punkte: Nennt alle drei Grundfarben richtig: rot, blau und gelb.
-
-------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 9: Nennen Sie drei Methoden der Wärmeübertragung.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Begriffe (z. B. „Reibung“, „Isolierung“).
-1 Punkt: Nennt eine richtige Methode der Wärmeübertragung (z. B. Leitung, Konvektion, Strahlung), aber andere Antworten sind falsch oder fehlen.
-2 Punkte: Nennt zwei korrekte Methoden der Wärmeübertragung.
-3 Punkte: Nennt alle drei Methoden richtig: Leitung, Konvektion und Strahlung.
-
--------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 10: Nennen Sie fünf Elemente aus dem Periodensystem.
-# Rubriken
-
-Rubrik Bereich: 0-3
-
-Bewertungsskala:
-
-0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Elemente (z. B. „Wasser“, „Salz“, „Holz“).
-1 Punkt: Nennt ein oder zwei richtige Elemente, aber auch falsche Elemente oder weniger Elemente.
-2 Punkte: Nennt drei oder vier richtige Elemente aus dem Periodensystem, enthält aber ein falsches Element oder ist unvollständig.
-3 Punkte: Nennt fünf Elemente aus dem Periodensystem richtig (z. B. Wasserstoff, Kohlenstoff, Sauerstoff, Gold, Eisen).
-
-------------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 11: Betrachte die Sequenz: 2, 4, 8, 16, ...
-Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
-
-# Rubriken
-
-Rubrik Bereich: 0-2
-
-Bewertungsskala:
-
-Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Sequenz.
-Punktzahl 1: Die Antwort beschreibt entweder das Muster korrekt oder enthält die richtige nächste Zahl (32).
-Punktzahl 2: Die Antwort beschreibt das Muster korrekt und enthält die richtige nächste Zahl (32).
-
-# Beispiele
-
-Punktzahl 0: Die Sequenz erhöht sich irgendwie. Die nächste Zahl ist 31.
-Punktzahl 1: Die nächste Zahl ist 32.
-Punktzahl 2: Die Sequenz verdoppelt jede Zahl, um die nächste zu erhalten. Um die nächste Zahl zu finden, multipliziere die letzte Zahl in der Sequenz mit 2. Die nächste Zahl nach 16 wäre 16*2=32.
---------------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem 12: Wenn 3x+5=20 ist, was ist x? Erkläre, wie du diese Gleichung Schritt für Schritt lösen würdest.
-
-# Rubriken
-
-Rubrik Bereich: 0-2
-
-Bewertungsskala:
-
-Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen der Gleichung.
-Punktzahl 1: Die Antwort beschreibt entweder den ersten oder den zweiten Schritt korrekt, aber nicht beide. Oder die Antwort hat den richtigen Wert für x, aber die Schritte sind nicht vollständig oder korrekt beschrieben.
-Punktzahl 2: Die Antwort beschreibt beide Schritte korrekt und enthält den richtigen Wert für x.
-
-# Beispiele:
-Punktzahl 0: Um x zu finden, musst du 20 durch 3 teilen.
-Punktzahl 1: Subtrahiere 5 von beiden Seiten, um 3x = 15 zu erhalten.
-Punktzahl 2: Um 3x + 5 = 20 zu lösen, subtrahiere zuerst 5 von beiden Seiten, um 3x = 15 zu erhalten. Dann teile beide Seiten durch 3, um x = 5 zu finden.
-
---------------------------------------------------------------
-
-# Problem 13: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+# Problem 1: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
 
 
 # Rubriken
@@ -209,10 +17,74 @@ Punktzahl 0: Die Länge ist 15 Meter und die Breite ist 10 Meter.
 Punktzahl 1: Sei die Breite w. Die Länge ist 2w. Die Umfangsformel ist 2(Länge+Breite) = 30. Setzt man ein, erhält man 2(2w+2)=30 also 6w = 30, und w = 5 Meter. Die Abmessungen sind 5 Meter mal 10 Meter.
 Punktzahl 2: Sei die Breite 2.  Die Läne ist 2w. Die Umfangsformel ist 2(Länge + Breite)=30. Setzt man ein, erhält man2(2w+w) =30, also 6w = 30, und w =5 Meter. Die Länge ist 2w = 2*5 = 10 Meter. Die Abmessungen sind 5 Metermal 10.
 
--------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+-----------------------------------------------------
 
-# Problem 14: Was ist größer, 2/3 oder 3/4? Begründe deine Antwort.
+# Problem 2: Warum wachsen die Wurzeln zuerst, wenn wir einen Samen pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Weil sie schneller wachsen“).
+1 Punkt: Gibt eine sehr einfache Antwort ohne Erklärung (z. B. „Damit die Pflanze Wasser bekommen kann“).
+2 Punkte: Gibt eine teilweise richtige Erklärung (z. B. „Wurzeln wachsen zuerst, um Stabilität zu gewährleisten und Wasser aufzunehmen“).
+3 Punkte: Bietet eine vollständige und klare Erklärung (z. B. „Die Wurzeln wachsen zuerst, um die Pflanze im Boden zu verankern und um Wasser und Nährstoffe aufzunehmen, die für das Wachstum der restlichen Pflanze wichtig sind“).
+
+-------------------------------------------------------
+
+# Problem 3: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 Euro erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Lösung.
+1 Punkt: Erkennt richtig die Notwendigkeit, die Anzahl der verkauften Notebooks zu ermitteln, macht aber erhebliche Rechenfehler oder verwendet eine falsche Methode.
+2 Punkte: Bietet eine korrekte Lösung an, erklärt aber den Ansatz nur unvollständig (z. B. „Sie machten 1 Euro Gewinn pro Notebook, also teilen Sie 100 durch 1, um 100 Notebooks zu erhalten“, ohne den Gewinn zu erklären).
+3 Punkte: Liefert eine vollständige, korrekte Erklärung:
+Der Gewinn pro Notebook beträgt 1 Euro (3 - 2 = 1).
+Um 100 Euro Gewinn zu machen, teilt man 100 Euro durch 1: 
+100÷1=100.
+Es wurden also 100 Schulhefte verkauft.
+------------------------------------------------------
+
+# Problem 4: Wie funktioniert die Photosynthese bei Pflanzen?
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Erklärung.
+1 Punkt: Gibt eine sehr einfache Antwort mit wenig Details (z. B. „Pflanzen nutzen das Sonnenlicht, um Nahrung herzustellen“).
+2 Punkte: Bietet eine teilweise richtige Erklärung, der es aber an Tiefe fehlt (z. B. „Pflanzen nutzen Sonnenlicht, Kohlendioxid und Wasser, um Nahrung zu erzeugen und Sauerstoff freizusetzen“).
+3 Punkte: Bietet eine detaillierte und vollständige Erklärung (z. B. „Photosynthese ist der Prozess, bei dem Pflanzen Sonnenlicht nutzen, um Wasser und Kohlendioxid in Glukose (Nahrung) und Sauerstoff umzuwandeln. Dieser Prozess findet in den Chloroplasten der Pflanzenzellen statt, und zwar hauptsächlich in zwei Stufen: den lichtabhängigen Reaktionen und dem Calvin-Zyklus").
+
+----------------------------------------------------
+
+# Problem 5: Betrachte die Sequenz: 2, 6, 14, 30 ...
+Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Sequenz.
+Punktzahl 1: Die Antwort beschreibt entweder das Muster korrekt oder enthält die richtige nächste Zahl (62).
+Punktzahl 2: Die Antwort beschreibt das Muster korrekt und enthält die richtige nächste Zahl (62).
+
+# Beispiele
+
+Punktzahl 0: Die Sequenz erhöht sich irgendwie. Die nächste Zahl ist 31.
+Punktzahl 1: Die nächste Zahl ist 62.
+Punktzahl 2: Die Sequenz jede Zahl +1 wird verdoppelt, um die nächste zu erhalten. Um die nächste Zahl zu finden,addieren wir 1 zu die letzte Zahl in der Sequenz und multiplizieren mit 2. Die nächste Zahl nach 30 wäre (30+1)*2=62.
+--------------------------------------------------------------
+
+# Problem 6: Was ist größer, 2/3 oder 3/4? Begründe deine Antwort.
 
 Rubrik Bereich: 0-2
 
@@ -230,15 +102,135 @@ Punktzahl 2:  Um 2/3 und 3/4 zu vergleichen, finde einen gemeinsamen Nenner. Der
 
 ---------------------------------------------------------------
 
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+
+# Problem 7: Nennen Sie drei Methoden der Wärmeübertragung.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Begriffe (z. B. „Reibung“, „Isolierung“).
+1 Punkt: Nennt eine richtige Methode der Wärmeübertragung (z. B. Leitung, Konvektion, Strahlung), aber andere Antworten sind falsch oder fehlen.
+2 Punkte: Nennt zwei korrekte Methoden der Wärmeübertragung.
+3 Punkte: Nennt alle drei Methoden richtig: Leitung, Konvektion und Strahlung.
+
+-------------------------------------------------------
+
+# Problem 8: Nenne fünf Primzahlen unter 10.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „1“, „9“, „15“).
+1 Punkt: Nennt eine oder zwei richtige Primzahlen, aber auch falsche Begriffe oder weniger Antworten.
+2 Punkte: Nennt drei oder vier richtige Primzahlen, enthält aber eine falsche oder fehlende Angabe.
+3 Punkte: Nennt fünf Primzahlen unter 20 richtig (erwartete Antworten: 2, 3, 5, 7).
+----------------------------------------------------
+
+
+# Problem 9: Der Begriff „Algorithmus“ wird häufig in der Informatik und Mathematik verwendet. Was ist ein Algorithmus?
+
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+0 Punkte: Keine relevante Antwort oder eine völlig falsche Antwort (z. B. „Ein Algorithmus ist ein Computerprogramm“).
+1 Punkt: Gibt eine vage oder teilweise richtige Definition (z. B. „Es ist eine Reihe von Anweisungen“, ohne den Zweck zu erklären).
+2 Punkte: Definiert einen Algorithmus korrekt, aber ohne viele Details (z. B. „Ein schrittweiser Prozess zur Lösung eines Problems“).
+3 Punkte: Bietet eine klare und detaillierte Definition (z. B. „Ein Algorithmus ist eine Reihe von schrittweisen Anweisungen oder Regeln, um ein Problem zu lösen oder eine bestimmte Aufgabe auszuführen“).
+
+------------------------------------------------------
+# Problem 10: Definieren Sie den Begriff der Funktion in der Mathematik.
+
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+0 Punkte: Keine relevante Antwort oder eine falsche Antwort (z. B. „Eine Funktion ist eine Aufgabe, die etwas erfüllt“).
+1 Punkt: Gibt eine sehr einfache oder vage Definition (z. B. „Eine Funktion verbindet Dinge miteinander“).
+2 Punkte: Nennt das Schlüsselkonzept einer Funktion richtig, aber nicht detailliert genug (z. B. „Eine Funktion ist eine Beziehung zwischen Eingaben und Ausgaben“).
+3 Punkte: Liefert eine klare, detaillierte Definition (z. B. „Eine Funktion ist eine mathematische Beziehung, bei der jede Eingabe eine eindeutige Ausgabe hat, die oft als f(x) beschrieben wird“).
+
+
+
+----------------------------------------------------
+
+# Problem 11: Nennen Sie drei mathematische Operationen.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „Kreis“, „Quadrat“, „Bruch“).
+1 Punkt: Nennt eine richtige mathematische Operation (z. B. Addition, Subtraktion, Multiplikation, Division, Potenzierung), aber andere Begriffe sind falsch oder fehlen.
+2 Punkte: Nennt zwei richtige Operationen, aber ein falsches oder fehlendes Element.
+3 Punkte: Nennt alle drei Operationen richtig (z. B. Addition, Subtraktion, Multiplikation, Division usw.).
+----------------------------------------------------
+
+# Problem 12: Nennen Sie drei Grundfarben.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder völlig falsche Angaben (z. B. „rosa“, „schwarz“, „grau“).
+1 Punkt: Nennt eine richtige Grundfarbe, aber falsche Begriffe oder ist unvollständig.
+2 Punkte: Nennt zwei richtige Grundfarben.
+3 Punkte: Nennt alle drei Grundfarben richtig: rot, blau und gelb.
+
+
+-------------------------------------------------------
+
+# Problem 13: Nennen Sie fünf Elemente aus dem Periodensystem.
+# Rubriken
+
+Rubrik Bereich: 0-3
+
+Bewertungsskala:
+
+0 Punkte: Keine relevante Antwort oder Aufzählung völlig falscher Elemente (z. B. „Wasser“, „Salz“, „Holz“).
+1 Punkt: Nennt ein oder zwei richtige Elemente, aber auch falsche Elemente oder weniger Elemente.
+2 Punkte: Nennt drei oder vier richtige Elemente aus dem Periodensystem, enthält aber ein falsches Element oder ist unvollständig.
+3 Punkte: Nennt fünf Elemente aus dem Periodensystem richtig (z. B. Wasserstoff, Kohlenstoff, Sauerstoff, Gold, Eisen).
+
+------------------------------------------------------------
+
+# Problem 14: Wenn 3x+5=20 ist. wie löst man die Gleichung.
+
+# Rubriken
+
+Rubrik Bereich: 0-2
+
+Bewertungsskala:
+
+Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über das Lösen der Gleichung.
+Punktzahl 1: Die Antwort beschreibt entweder den ersten oder den zweiten Schritt korrekt, aber nicht beide. Oder die Antwort hat den richtigen Wert für x, aber die Schritte sind nicht vollständig oder korrekt beschrieben.
+Punktzahl 2: Die Antwort beschreibt beide Schritte korrekt und enthält den richtigen Wert für x.
+
+# Beispiele:
+Punktzahl 0: Um x zu finden, musst du 20 durch 3 teilen.
+Punktzahl 1: Subtrahiere 5 von beiden Seiten, um 3x = 15 zu erhalten.
+Punktzahl 2: Um 3x + 5 = 20 zu lösen, subtrahiere zuerst 5 von beiden Seiten, um 3x = 15 zu erhalten. Dann teile beide Seiten durch 3, um x = 5 zu finden.
+
+--------------------------------------------------------------
+
+
 
 # Problem 15: Angenommen, du weißt, dass alle Mathematiklehrer freundlich sind. Wenn Herr Braun ein Mathematiklehrer ist, was kannst du dann über Herrn Braun sagen? Erkläre deine Überlegungen.
+
 Antwort: Da alle Mathematiklehrer freundlich sind und Herr Braun ein Mathematiklehrer ist, folgt logisch, dass Herr Braun freundlich ist. Dies ist eine Anwendung der universellen Quantifizierung in der Logik.
 
 -----------------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
 
-# Problem 15: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
+
+# Problem 16: Eine Umfrage zeigt, dass von 200 Schülern 150 Schüler Schokoladeneis mögen. Wenn ein neuer Schüler der Schule beitritt, wie hoch ist die Wahrscheinlichkeit, dass dieser Schüler Schokoladeneis mag? Begründe deine Antwort.
 
 
 Rubrik Bereich: 0-2
@@ -254,10 +246,11 @@ Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle S
 Punktzahl 0: Die Wahrscheinlichkeit ist 0,5, weil die Hälfte der Schüler Schokoladeneis mögen.
 Punktzahl 1: Die Wahrscheinlichkeit, dass der neue Schüler Schokoladeneis mag, beträgt 75 %.
 Punktzahl 2: ie Wahrscheinlichkeit wird durch die relative Häufigkeit der Schüler, die Schokoladeneis mögen, geschätzt, die 150/200=0.75 oder 75 % beträgt. Daher besteht eine 75 %ige Chance, dass der neue Schüler Schokoladeneis mag.
--------------------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
+-------------------------------------------------------------------------------------
 
-# Problem 16: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
+# Problem 17: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
+
+
 Antwort: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
 
 Rubrik Bereich: 0-2
@@ -275,21 +268,3 @@ Punktzahl 1: Die Kosten für die Burger sind 3×4=12 Dollar und für die Limonad
 Punktzahl 2: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
 
 -------------------------------------------------------------------
-Sie bewerten einen Mathe-Test. Sie erhalten einen Leitfaden, eine Bewertungsrubrik, Bewertungsbeispiele, eine Frage und die Antwort eines Schülers. Bewerten Sie die Antwort gemäß der Bewertungsrubrik und den Bewertungsbeispielen. Antworten Sie auf die Antwort mit einer Bewertung, gefolgt von einem Absatz mit einer Begründung. Geben Sie für die Bewertung nur eine Punktzahl an.
-
-# Problem: Erkläre, wie man Algebra verwenden kann, um deine Rechnung zu überprüfen, wenn du drei Burger und vier Limonaden bestellt hast, wobei jeder Burger 4 Dollar und jede Limonade 1,50 Dollar kostet.
-Antwort: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.
-
-Rubrik Bereich: 0-2
-
-Bewertungsskala:
-
-Punktzahl 0: Die Antwort beschreibt wenig oder gar keine genauen oder relevanten Informationen über die Verwendung von Algebra zur Überprüfung der Rechnung. Die Schritte sind falsch oder fehlen, und das Ergebnis ist nicht korrekt.
-Punktzahl 1: Die Antwort beschreibt einige korrekte Schritte oder liefert teilweise korrekte Informationen, aber es gibt Fehler in der Herleitung oder Berechnung. Das Ergebnis ist möglicherweise korrekt oder teilweise korrekt, aber die Erklärung ist unvollständig oder fehlerhaft.
-Punktzahl 2: Die Antwort beschreibt den Prozess korrekt und vollständig. Alle Schritte sind richtig erklärt und das Ergebnis ist korrekt.
-
-# Beispiele
-
-Punktzahl 0: Die Rechnung ist 15 Dollar. 
-Punktzahl 1: Die Kosten für die Burger sind 3×4=12 Dollar und für die Limonaden 4×1,50=6 Dollar. Die Gesamtkosten sind 18 Dollar. Die Rechnung ist korrekt, aber es wird nicht erklärt, wie man dies mit Algebra überprüfen kann.
-Punktzahl 2: Multipliziere den Kosten der Burger (3 × 4 $ = 12 $) und der Limonaden (4 × 1,50 $ = 6 $). Die gesamte erwartete Rechnung sollte 12 $ + 6 $ = 18 $ betragen. Durch die Verwendung von Algebra stellen wir sicher, dass wir korrekt berechnet wurden.

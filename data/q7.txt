@@ -1,1 +1,1 @@
-Nenne fünf Primzahlen unter 20.
+Nennen Sie drei Methoden der Wärmeübertragung.

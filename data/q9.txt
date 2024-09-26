@@ -1,1 +1,2 @@
-Nennen Sie drei Methoden der Wärmeübertragung.
+Betrachte die Sequenz: 2, 6, 14, 30, ...
+Beschreibe das Muster.
