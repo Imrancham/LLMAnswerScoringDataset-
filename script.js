@@ -19,7 +19,7 @@ function generateUUID() {
 function fetchQuestionData(index) {
     const requestBody = { id: index };
 
-    return fetch('http://localhost/llm_project/getQues.php', {
+    return fetch('.php/getQues.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -145,7 +145,7 @@ async function nextQuestion(e) {
 
 // Function to save the response
 async function saveResponse(jsonData) {
-    await fetch('http://localhost/llm_project/save.php', {
+    await fetch('.php/save.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -193,7 +193,7 @@ async function handleFeedbackFormSubmission(userId) {
         };
 
         try {
-            const response = await fetch('http://localhost/llm_project/saveFeedback.php', {
+            const response = await fetch('.php/saveFeedback.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

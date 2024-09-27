@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit(0);
 }
 
-$participantsCsvFilePath = 'C:/Users/imran.chamieh/Desktop/Short_Answres_Attack_on_LLMs_Scoring/output/participants.csv';
+$participantsCsvFilePath = '../output/participants.csv';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
