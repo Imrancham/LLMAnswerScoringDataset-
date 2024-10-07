@@ -10,14 +10,16 @@ error_reporting(E_ALL);
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 // Handle preflight OPTIONS requests
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit(0);
 }
 
-$questionDirectory = "../data";
+$questionDirectory = "./data";
 
 // Function to load the question prompt
 function loadQuestionPrompt($filePath) {
@@ -34,14 +36,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         $data = json_decode(file_get_contents('php://input'), true);
         $questionId = $data['id'];
-        $filePath = $questionDirectory . "/Q" . $questionId . ".txt";
+        $filePath = $questionDirectory . "/q" . $questionId . ".txt";
 
         // Load the question
         $question = loadQuestionPrompt($filePath);
         if ($question) {
             echo json_encode(["question" => $question]);
         } else {
-            echo json_encode(["error" => "Question not found"]);
+            echo json_encode(["error" => "Question not found".  $filePath]);
         }
     } catch (Exception $e) {
         echo json_encode(["error" => $e->getMessage()]);

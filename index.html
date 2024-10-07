@@ -34,18 +34,15 @@
 
         </p>
         <form id="questionnaireForm">
-
+               
             <div class="consent">
-                <label for="consent">
-                    Ich erkläre mich damit einverstanden, dass meine Daten für Forschungszwecke verwendet werden und dass sie veröffentlicht werden können. 
-                    
-                </label>
+                <label for="consent">Ich erkläre mich damit einverstanden, dass meine Daten für Forschungszwecke verwendet werden und dass sie veröffentlicht werden können.</label>
                 <input type="checkbox" id="consent" name="consent" required>
             </div>
             <div class="submit_question">
-                <button type="button" id="startButton" disabled>Fragebogen starten</button>
+                <input type="submit" value="Fragebogen starten">
             </div>
-            </form>
+        </form> 
     </div>
 
     <script>
@@ -57,27 +54,14 @@
             });
         }
 
-        // Store the UUID in localStorage when the form is submitted
         document.addEventListener('DOMContentLoaded', function() {
-            const consentCheckbox = document.getElementById('consent');
-            const startButton = document.getElementById('startButton');
-            const errorMessage = document.getElementById('error-message');
+            const form = document.getElementById('questionnaireForm');;
 
+            if (form){
+                    form.addEventListener('submit', function(e) {
+                        e.preventDefault();
 
-            // Enable or disable the button based on checkbox state
-        consentCheckbox.addEventListener('change', function () {
-            if (consentCheckbox.checked) {
-                startButton.disabled = false;
-                errorMessage.style.display = 'block';
-            } else {
-                startButton.disabled = true;
-            }
-        });
-
-            // On button click, generate a userID and store it in localStorage
-            startButton.addEventListener('click', function() {
-                // Check if a userId already exists in localStorage
-                let userId = localStorage.getItem('userId');
+                        let userId = localStorage.getItem('userId');
                 
                 // If no userId exists, generate a new one
                 if (!userId) {
@@ -85,11 +69,12 @@
                     localStorage.setItem('userId', userId);
                 }
 
-                console.log('Generated or retrieved userId:');
-
                 // Redirect to questionnaire page
                 window.location.href = 'Questions.html';
-            });
+                        
+                    });
+                }
+
         });
     </script>
 </body>

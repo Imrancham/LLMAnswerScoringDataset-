@@ -1,1 +1,1 @@
-Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 Euro erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.

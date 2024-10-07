@@ -18,20 +18,38 @@ function generateUUID() {
 // Function to fetch question data
 function fetchQuestionData(index) {
     const requestBody = { id: index };
+    
+    console.log('Sending request with body:', requestBody); // Log the request body
 
-    return fetch('.php/getQues.php', {
+    return fetch('http://localhost/llm_project/getQues.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(requestBody)
     })
-    .then(response => response.json())
+    .then(response => {
+        console.log('Response status:', response.status); // Log the response status code
+
+        // Log the response before parsing to JSON
+        return response.text().then(text => {
+
+            try {
+                const jsonResponse = JSON.parse(text);
+                console.log('Parsed JSON response:'); // Log parsed JSON response
+                return jsonResponse;
+            } catch (error) {
+                console.error('Error parsing JSON:', error);
+                throw new Error('Invalid JSON response');
+            }
+        });
+    })
     .catch(error => {
-        console.error('Error fetching question:', error);
+        console.error('Error fetching question:', error); // Log any errors
         throw error;
     });
 }
+
 
 // Function to render the question form
 function renderQuestionForm(index , questionText) {
@@ -108,7 +126,6 @@ function loadQuestion(index) {
 // Function to save response and load next question
 async function nextQuestion(e) {
     e.preventDefault(); // Prevent default behavior if it's a form submit
-    console.log('kilced next')
     // Call validation method before saving inputs
     const isValid = validateQuestionInputs();
     if (!isValid) {
@@ -145,7 +162,7 @@ async function nextQuestion(e) {
 
 // Function to save the response
 async function saveResponse(jsonData) {
-    await fetch('.php/save.php', {
+    await fetch('http://localhost/llm_project/save.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -154,7 +171,7 @@ async function saveResponse(jsonData) {
     })
     .then(response => response.json())
     .then(data => {
-        console.log('Data saved:', data);
+        console.log('Data saved:');
     })
     .catch(error => {
         console.error('Error saving data:', error);
@@ -180,7 +197,7 @@ async function handleFeedbackFormSubmission(userId) {
     // Ensure all necessary inputs are provided and valid
     if (!userId) {
         alert('User ID is missing. Please fill out the form.');
-        window.location.href = 'instructions.html'; // Redirect to your instructions page
+        window.location.href = 'index.html'; // Redirect to your instructions page
         
     }
 
@@ -193,7 +210,7 @@ async function handleFeedbackFormSubmission(userId) {
         };
 
         try {
-            const response = await fetch('.php/saveFeedback.php', {
+            const response = await fetch('http://localhost/llm_project/saveFeedback.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -205,8 +222,8 @@ async function handleFeedbackFormSubmission(userId) {
                 // Success: Redirect to the instructions page after 1 second
                 setTimeout(() => {
                     alert("Danke für Deine Teilnahme!");
-                    window.location.href = 'instructions.html'; // Redirect to your instructions page
-                }, 1000); // 1 second delay before redirection
+                    window.location.href = 'index.html'; // Redirect to your instructions page
+                }, 500); // 1 second delay before redirection
             } else {
                 console.error('Failed to save feedback');
             }
@@ -220,7 +237,6 @@ async function handleFeedbackFormSubmission(userId) {
 }
 
 function addInputField() {
-    console.log('clicked')
     const Qid =  `question${currentQuestionIndex}`;
     const questionDiv = document.getElementById(Qid);
     if (questionDiv) {

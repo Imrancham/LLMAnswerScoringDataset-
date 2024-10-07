@@ -1,2 +1,1 @@
-Betrachte die Sequenz: 2, 6, 14, 30, ...
-Beschreibe das Muster.
+Welcher Unterschied besteht zwischen Funktion und Beziehung?

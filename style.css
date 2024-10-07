@@ -113,7 +113,7 @@ questionnaire p {
 }
 
 .submit_question input[type="submit"] {
-    background-color: #333;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -121,9 +121,10 @@ questionnaire p {
 }
 
 .submit_question input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #0056b3;
 
-}.submit_question button[type="button"] {
+}
+.submit_question button[type="submit"] {
     background-color: #007BFF;
     color: #fff;
     border: none;
@@ -132,7 +133,7 @@ questionnaire p {
     border-radius: 4px;
 }
 
-.submit_question button[type="button"]:hover {
+.submit_question button[type="submit"]:hover {
     background-color: #0056b3;
 }
 

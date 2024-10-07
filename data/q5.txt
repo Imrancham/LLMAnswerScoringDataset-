@@ -1,1 +1,2 @@
-Was ist der Unterschied zwischen Funktion und Relation?
+Betrachte die Sequenz: 2, 6, 14, 30, ...
+Beschreibe das Muster.

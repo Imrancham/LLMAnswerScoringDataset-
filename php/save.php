@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 // Constants for file paths
-$responsesCsvFilePath = 'C../output/responses.csv';
+$responsesCsvFilePath = './output/responses.csv';
 $csvHeaders = ["UserID", "QuestionID", "StudentAnswer", "ResponseRating"];
 
 // Function to save responses to CSV
