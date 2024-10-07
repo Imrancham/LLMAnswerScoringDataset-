@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit(0);
 }
 
-$questionDirectory = "./data";
+$questionDirectory = "../data";
 
 // Function to load the question prompt
 function loadQuestionPrompt($filePath) {
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($question) {
             echo json_encode(["question" => $question]);
         } else {
-            echo json_encode(["error" => "Question not found".  $filePath]);
+            echo json_encode(["error" => "Question not found at the dir: ".  $filePath]);
         }
     } catch (Exception $e) {
         echo json_encode(["error" => $e->getMessage()]);

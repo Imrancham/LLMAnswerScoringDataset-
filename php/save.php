@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 // Constants for file paths
-$responsesCsvFilePath = './output/responses.csv';
+$responsesCsvFilePath = '../output/responses.csv';
 $csvHeaders = ["UserID", "QuestionID", "StudentAnswer", "ResponseRating"];
 
 // Function to save responses to CSV
@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         saveResponsesToCsv($responses, $responsesCsvFilePath, $csvHeaders);
 
         // Respond with success message
-        echo json_encode(["message" => "Responses saved successfully"]);
+        echo json_encode(["message" => "Responses saved successfully to ", "Path" =>  $responsesCsvFilePath]);
     } catch (Exception $e) {
         // Log the error to the error log file
         error_log($e->getMessage());

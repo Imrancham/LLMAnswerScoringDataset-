@@ -2,7 +2,7 @@
 // Variables
 let currentQuestionIndex = 0;
 const userId = localStorage.getItem('userId');
-const totalQuestions = 8; // Update based on the number of questions
+const totalQuestions = 9; // Update based on the number of questions
 
 
 // Function to generate a UUID
@@ -21,7 +21,7 @@ function fetchQuestionData(index) {
     
     console.log('Sending request with body:', requestBody); // Log the request body
 
-    return fetch('http://localhost/llm_project/getQues.php', {
+    return fetch('./php/getQues.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -29,14 +29,14 @@ function fetchQuestionData(index) {
         body: JSON.stringify(requestBody)
     })
     .then(response => {
-        console.log('Response status:', response.status); // Log the response status code
+        console.log('Response status:', response); // Log the response status code
 
         // Log the response before parsing to JSON
         return response.text().then(text => {
 
             try {
                 const jsonResponse = JSON.parse(text);
-                console.log('Parsed JSON response:'); // Log parsed JSON response
+                console.log('Parsed JSON response: ', jsonResponse); // Log parsed JSON response
                 return jsonResponse;
             } catch (error) {
                 console.error('Error parsing JSON:', error);
@@ -162,7 +162,7 @@ async function nextQuestion(e) {
 
 // Function to save the response
 async function saveResponse(jsonData) {
-    await fetch('http://localhost/llm_project/save.php', {
+    await fetch('./php/save.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -171,7 +171,7 @@ async function saveResponse(jsonData) {
     })
     .then(response => response.json())
     .then(data => {
-        console.log('Data saved:');
+        console.log('Data saved');
     })
     .catch(error => {
         console.error('Error saving data:', error);
@@ -210,7 +210,7 @@ async function handleFeedbackFormSubmission(userId) {
         };
 
         try {
-            const response = await fetch('http://localhost/llm_project/saveFeedback.php', {
+            const response = await fetch('./php/saveFeedback.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -220,6 +220,7 @@ async function handleFeedbackFormSubmission(userId) {
 
             if (response.ok) {
                 // Success: Redirect to the instructions page after 1 second
+                console.log("response:", response)
                 setTimeout(() => {
                     alert("Danke für Deine Teilnahme!");
                     window.location.href = 'index.html'; // Redirect to your instructions page

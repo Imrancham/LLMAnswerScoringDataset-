@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit(0);
 }
 
-$participantsCsvFilePath = './output/participants.csv';
+$participantsCsvFilePath = '../output/participants.csv';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header('Content-Type: application/json');
@@ -29,21 +29,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $LLM_usage_frequency = $data['LLM_usage_frequency'];
         $other_LLMs = $data['other_LLMs'];
 
-        if ($email && $userId) {
-            $fileExists = file_exists($participantsCsvFilePath);
-            $file = fopen($participantsCsvFilePath, 'a');
+        
+        $fileExists = file_exists($participantsCsvFilePath);
+        $file = fopen($participantsCsvFilePath, 'a');
 
-            if (!$fileExists) {
-                fputcsv($file, ['userID', 'email', 'LLM_familiarity', 'LLM_usage_frequency', 'other_LLMs']);
-            }
-
-            fputcsv($file, [$userId, $email, $LLM_familiarity, $LLM_usage_frequency, $other_LLMs]);
-            fclose($file);
-
-            echo json_encode(["message" => "Email and user data saved successfully!"]);
-        } else {
-            echo json_encode(["error" => "Email or UserID not provided!"]);
+        if (!$fileExists) {
+            fputcsv($file, ['email', 'LLM_familiarity', 'LLM_usage_frequency', 'other_LLMs']);
         }
+
+        fputcsv($file, [$email, $LLM_familiarity, $LLM_usage_frequency, $other_LLMs]);
+        fclose($file);
+
+        echo json_encode(["message" => "Email and user data saved successfully!"]);
+      
     } catch (Exception $e) {
         echo json_encode(["error" => $e->getMessage()]);
     }
