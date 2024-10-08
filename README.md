@@ -17,4 +17,9 @@ flowchart TD
     %% Additional considerations
     F["Design web interface"] --> A
     G["Crafte questions set"] --> A
+
+    %% Style for done nodes
+    style F fill:#d3f9d8,stroke:#333,stroke-width:2px
+    style G fill:#d3f9d8,stroke:#333,stroke-width:2px
+    style A fill:#d3f9d8,stroke:#333,stroke-width:2px
 ```
