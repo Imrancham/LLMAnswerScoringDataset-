@@ -1,4 +1,6 @@
-# Problem 1: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? Erkläre deinen Prozess.
+# Problem 1: Ein Rechteck hat eine Länge, die doppelt so groß ist wie seine Breite. 
+Wenn der Umfang des Rechtecks 30 Meter beträgt, wie sind die Abmessungen des Rechtecks? 
+Erkläre deinen Prozess.
 
 
 # Rubriken
@@ -33,7 +35,9 @@ Bewertungsskala:
 
 -------------------------------------------------------
 
-# Problem 3: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn von 100 Euro erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
+# Problem 3: Eine Schule kauft Schulhefte für 2 Euro pro Stück und verkauft sie an Schüler 
+für 3 Euro pro Stück. Wie viele Schulhefte wurden verkauft, wenn die Schule einen Gesamtgewinn 
+von 100 Euro erzielt hat? Beschreiben Sie Ihren Ansatz zur Lösung dieses Problems.
 # Rubriken
 
 Rubrik Bereich: 0-3
@@ -65,7 +69,7 @@ Bewertungsskala:
 ----------------------------------------------------
 
 # Problem 5: Betrachte die Sequenz: 2, 6, 14, 30 ...
-Beschreibe das Muster. Wie würdest du die nächste Zahl in der Sequenz bestimmen?
+Erkläre, wie die nächsten Zahlen in der Sequenz bestimmt werden können.
 
 # Rubriken
 
@@ -117,7 +121,7 @@ Bewertungsskala:
 
 -------------------------------------------------------
 
-# Problem 8: Nenne fünf Primzahlen unter 10.
+# Problem 8: Nenne fünf verschiedenen Primzahlen unter 10.
 # Rubriken
 
 Rubrik Bereich: 0-3
@@ -129,7 +133,10 @@ Bewertungsskala:
 2 Punkte: Nennt drei oder vier richtige Primzahlen, enthält aber eine falsche oder fehlende Angabe.
 3 Punkte: Nennt fünf Primzahlen unter 20 richtig (erwartete Antworten: 2, 3, 5, 7).
 ----------------------------------------------------
+# Problem 9: Welcher Unterschied besteht zwischen Funktion und Relation?
 
+
+---------------------------------------------------------------------
 
 # Problem 9: Der Begriff „Algorithmus“ wird häufig in der Informatik und Mathematik verwendet. Was ist ein Algorithmus?
 

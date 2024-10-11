@@ -2,7 +2,7 @@
 // Variables
 let currentQuestionIndex = 0;
 const userId = localStorage.getItem('userId');
-const totalQuestions = 9; // Update based on the number of questions
+const totalQuestions = 10; // Update based on the number of questions
 
 
 // Function to generate a UUID
@@ -63,12 +63,14 @@ function renderQuestionForm(index , questionText) {
                 <label for="q${index}-1"> ${questionText}</label>
                 <p>Deine Antwort.</p>
                 <input type="text" id="q${index}-1" name="q${index}-1">
-                <p>Gib andere Antworten, die falsch sind, aber richtig erscheinen. Versuche, das System zu überlasten (auszutricksen).</p>
+                <p>Gib andere Antworten, die falsch sind, aber richtig erscheinen. Versuche, das System zu überlisten (auszutricksen).</p>
                 <input type="text" id="q${index}-2" name="q${index}-2">
                 <input type="text" id="q${index}-3" name="q${index}-3">
                 <input type="text" id="q${index}-4" name="q${index}-4">
                 <input type="text" id="q${index}-5" name="q${index}-5">
             </div>
+            <p>Anmerkung: Du kannst jede Art von Angriff verwenden, um das Bewertungssystem zu überlisten, z. B. durch logische Ungereimtheiten, irreführende Formatierungen oder manipulierte Eingaben.</p>
+
         </form>
 
         <!-- Progress Bar Section -->

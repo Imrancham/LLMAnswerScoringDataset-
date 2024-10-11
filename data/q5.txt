@@ -1,2 +1,3 @@
 Betrachte die Sequenz: 2, 6, 14, 30, ...
-Beschreibe das Muster.
+<br>
+Erkläre, wie die nächsten Zahlen in der Sequenz bestimmt werden können.
